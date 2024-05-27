@@ -1,4 +1,4 @@
-import { Button, GithubIcon, LinkedinIcon } from "@/components";
+import { Button, GithubIcon, LinkedinIcon } from '@/components'
 
 export default function Home() {
   return (
@@ -43,5 +43,5 @@ export default function Home() {
         </Button>
       </aside>
     </div>
-  );
+  )
 }

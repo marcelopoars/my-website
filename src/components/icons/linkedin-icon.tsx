@@ -1,4 +1,4 @@
-import { SvgIconProps } from "@/components/icons/interfaces";
+import { SvgIconProps } from '@/components/icons/interfaces'
 
 export const LinkedinIcon = (props: SvgIconProps) => {
   return (
@@ -19,5 +19,5 @@ export const LinkedinIcon = (props: SvgIconProps) => {
         </clipPath>
       </defs>
     </svg>
-  );
-};
+  )
+}

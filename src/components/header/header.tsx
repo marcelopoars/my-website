@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
 
-import { Button, ThemeToggle } from "@/components";
+import { Button, ThemeToggle } from '@/components'
 
 export function Header() {
   return (
@@ -26,10 +26,10 @@ export function Header() {
           />
         </Link>
         <div className="flex gap-4 font-mono font-semibold">
-          <Button variant={"secondary"}>contato</Button>
+          <Button variant={'secondary'}>contato</Button>
           <ThemeToggle />
         </div>
       </div>
     </header>
-  );
+  )
 }

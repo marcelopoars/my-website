@@ -1,4 +1,4 @@
-import { SvgIconProps } from "@/components/icons/interfaces";
+import { SvgIconProps } from '@/components/icons/interfaces'
 
 export const GithubIcon = (props: SvgIconProps) => {
   return (
@@ -8,6 +8,7 @@ export const GithubIcon = (props: SvgIconProps) => {
       viewBox="0 0 22 22"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <g clip-path="url(#clip0_114_25)">
         <path
@@ -21,5 +22,5 @@ export const GithubIcon = (props: SvgIconProps) => {
         </clipPath>
       </defs>
     </svg>
-  );
-};
+  )
+}
