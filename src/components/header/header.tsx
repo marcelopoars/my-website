@@ -6,10 +6,10 @@ import { Button, ThemeToggle } from '@/components'
 export function Header() {
   return (
     <header>
-      <div className="container flex items-center justify-between pt-20 pb-28">
+      <div className="container flex items-center justify-between pt-12 pb-14 lg:pt-20 lg:pb-28">
         <Link href="/">
           <Image
-            className="hidden dark:block"
+            className="hidden dark:block w-[107px] lg:w-[198px]"
             src="/logo-marcelo-pereira-frontend-developer-dark.svg"
             alt="Logo Marcelo Pereira"
             width={196}
@@ -17,7 +17,7 @@ export function Header() {
             priority
           />
           <Image
-            className="block dark:hidden"
+            className="block dark:hidden w-[107px] lg:w-[198px]"
             src="/logo-marcelo-pereira-frontend-developer-light.svg"
             alt="Logo Marcelo Pereira"
             width={196}
