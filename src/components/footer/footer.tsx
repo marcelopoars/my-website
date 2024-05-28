@@ -4,10 +4,10 @@ import { LogoDicaDoNerd } from '../logo-dica-do-nerd'
 export function Footer() {
   return (
     <footer className="pt-20">
-      <div className="container flex flex-col gap-10 font-mono font-medium py-6 lg:flex-row lg:justify-between lg:pr-20">
+      <div className="container flex flex-col gap-10 font-mono font-medium py-6 md:flex-row md:justify-between md:pr-20">
         <Logo />
 
-        <aside className="flex gap-10 lg:gap-32">
+        <aside className="flex gap-10 md:gap-32">
           <div className="space-y-6">
             <h4 className="text-xl">Me encontre</h4>
             <ul className="space-y-4 text-muted-foreground">
