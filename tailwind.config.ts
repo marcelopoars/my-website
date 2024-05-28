@@ -4,7 +4,6 @@ import { fontFamily } from 'tailwindcss/defaultTheme'
 const config = {
   darkMode: ['class'],
   content: [
-    './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
@@ -48,6 +47,10 @@ const config = {
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
+        },
+        'dica-do-nerd': {
+          DEFAULT: 'hsl(var(--dica-do-nerd))',
+          foreground: 'hsl(var(--dica-do-nerd-foreground))',
         },
         popover: {
           DEFAULT: 'hsl(var(--popover))',

@@ -3,7 +3,8 @@ import { cn } from '@/lib/utils'
 import type { Metadata } from 'next'
 import { IBM_Plex_Mono as FontNono, Outfit as FontSans } from 'next/font/google'
 
-import { Header } from '@/components'
+import { Footer, Header } from '@/components'
+
 import '../styles/globals.css'
 
 const fontSans = FontSans({
@@ -29,16 +30,17 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" suppressHydrationWarning>
       <body className={cn(fontSans.variable, fontNono.variable)}>
-        <ThemeProvider attribute="class" defaultTheme="system">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <Header />
           <main className="flex-1">{children}</main>
-          <footer>
-            <div className="container py-6">
-              &copy; 2024 Marcelo Pereira | Desenvolvedor Full Stack
-            </div>
-          </footer>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
