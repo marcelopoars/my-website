@@ -1,5 +1,5 @@
 import { CurlyBracketsIcon, StackIcon } from '@/components'
-import { Links } from './_components'
+import { HeroLinks } from './_components'
 
 export function HeroHome() {
   return (
@@ -13,17 +13,17 @@ export function HeroHome() {
         <span className="relative">
           projeto
           <div className="flex absolute -bottom-1 -right-[80px] lg:-right-[260px]">
-            <div className="size-10 lg:size-28 flex items-center justify-center bg-primary text-white rounded-full">
+            <div className="size-10 lg:size-28 flex items-center justify-center bg-primary text-primary-foreground rounded-full">
               <StackIcon className="size-3 lg:size-auto" />
             </div>
-            <div className="size-10 lg:size-28 flex items-center justify-center bg-[#DB3A34] text-white rounded-full -ml-2 lg:-ml-5">
+            <div className="size-10 lg:size-28 flex items-center justify-center bg-dica-do-nerd text-dica-do-nerd-foreground rounded-full -ml-2 lg:-ml-5">
               <CurlyBracketsIcon className="size-3 lg:size-auto" />
             </div>
           </div>
         </span>
       </h1>
 
-      <Links />
+      <HeroLinks />
     </div>
   )
 }

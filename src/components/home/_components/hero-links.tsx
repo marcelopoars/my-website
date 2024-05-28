@@ -1,6 +1,6 @@
 import { Button, GithubIcon, LinkedinIcon } from '@/components'
 
-export function Links() {
+export function HeroLinks() {
   return (
     <aside className="flex items-center gap-4">
       <Button asChild>
