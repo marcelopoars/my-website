@@ -3,9 +3,9 @@ import { ProjectCard } from './_components'
 
 export function Projects() {
   return (
-    <section className="pt-32">
+    <section className="pt-12 md:pt-16 lg:pt-32">
       <div className="container">
-        <h2 className="text-3xl text-center font-mono font-medium mb-10">
+        <h2 className="text-2xl font-mono font-medium mb-10 md:text-3xl md:text-center">
           Projetos
         </h2>
 
