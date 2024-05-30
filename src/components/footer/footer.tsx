@@ -1,11 +1,10 @@
-import { Logo } from '../logo'
-import { LogoDicaDoNerd } from '../logo-dica-do-nerd'
+import { LogoDicaDoNerd, LogoMarceloPereira } from '../logos'
 
 export function Footer() {
   return (
     <footer className="pt-20">
       <div className="container flex flex-col gap-10 font-mono font-medium py-6 md:flex-row md:justify-between md:pr-20">
-        <Logo />
+        <LogoMarceloPereira />
 
         <aside className="flex gap-10 md:gap-16 lg:gap-32">
           <div className="space-y-6">
@@ -46,7 +45,7 @@ export function Footer() {
 
           <div className="space-y-6">
             <div>
-              <LogoDicaDoNerd />
+              <LogoDicaDoNerd orientation="horizontal" />
             </div>
 
             <ul className="space-y-4 text-muted-foreground">
@@ -85,11 +84,13 @@ export function Footer() {
         </aside>
       </div>
 
-      <div className="container py-6">
-        <p className="text-sm text-muted-foreground text-center">
+      <div className="container py-8">
+        <hr className="bg-foreground/30 h-px" />
+
+        <p className="text-muted-foreground text-center mt-8">
           &copy; 2024 | Desenvolvido com ❤️ por{' '}
           <a className="font-sans hover:text-primary" href="/">
-            Marcelo Pereira
+            <strong>Marcelo Pereira</strong>
           </a>
           .
         </p>

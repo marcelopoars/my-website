@@ -74,8 +74,9 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border lg:hover:transition-all;
   }
+
   body {
     @apply bg-background text-foreground;
     @apply font-sans antialiased;

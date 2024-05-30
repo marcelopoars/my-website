@@ -26,7 +26,6 @@ export function ProjectCard({
           height={7680}
           quality={100}
           alt="Screenshot da aplicação"
-          objectFit="cover"
         />
 
         <h3 className="text-2xl mt-5">{name}</h3>
