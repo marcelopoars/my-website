@@ -48,14 +48,14 @@ export function DicaDoNerd() {
                 title={title}
               >
                 <Image
-                  className="shadow-[6px_6px_0px_0px_rgba(219,58,52,1)] group-hover:opacity-85"
+                  className="shadow-[6px_6px_0px_0px_rgba(219,58,52,1)] opacity-85 group-hover:opacity-100 group-hover:scale-105"
                   src={thumb}
                   width={1000}
                   height={500}
                   quality={100}
                   alt={title}
                 />
-                <h3 className="text-2xl font-medium line-clamp-2 mt-6 group-hover:text-dica-do-nerd">
+                <h3 className="text-2xl font-medium line-clamp-2 mt-6 group-hover:text-dica-do-nerd lg:mt-10">
                   {title}
                 </h3>
               </a>
