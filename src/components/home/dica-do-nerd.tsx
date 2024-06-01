@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import { LogoDicaDoNerd } from '../logos'
+
 import { dicaDoNerdVideos } from '@/lib'
+import { LogoDicaDoNerdVertical } from '../logos'
 
 export function DicaDoNerd() {
   return (
@@ -10,7 +11,7 @@ export function DicaDoNerd() {
 
         <div className="lg:flex lg:justify-between items-start pt-20">
           <div className="mb-6 lg:mb-0">
-            <LogoDicaDoNerd />
+            <LogoDicaDoNerdVertical />
 
             <div className="max-w-[815px] text-balance font-medium leading-normal pt-8 lg:text-2xl lg:pt-16">
               <p>
@@ -48,14 +49,14 @@ export function DicaDoNerd() {
                 title={title}
               >
                 <Image
-                  className="shadow-[6px_6px_0px_0px_rgba(219,58,52,1)] opacity-85 group-hover:opacity-100 group-hover:scale-105"
+                  className="shadow-[6px_6px_0px_0px_rgba(219,58,52,1)] opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all"
                   src={thumb}
                   width={1000}
                   height={500}
                   quality={100}
                   alt={title}
                 />
-                <h3 className="text-2xl font-medium line-clamp-2 mt-6 group-hover:text-dica-do-nerd lg:mt-10">
+                <h3 className="text-2xl font-medium line-clamp-2 mt-6 group-hover:text-dica-do-nerd lg:mt-10 transition">
                   {title}
                 </h3>
               </a>

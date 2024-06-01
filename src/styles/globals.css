@@ -74,7 +74,7 @@
 
 @layer base {
   * {
-    @apply border-border lg:transition-all;
+    @apply border-border;
   }
 
   body {

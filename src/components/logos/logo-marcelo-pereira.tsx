@@ -5,7 +5,7 @@ export function LogoMarceloPereira() {
   return (
     <Link href="/">
       <Image
-        className="hidden dark:block w-[107px] lg:w-[198px]"
+        className="hidden dark:block w-[107px] md:w-[140px] lg:w-[198px]"
         src="/logos/logo-marcelo-pereira-frontend-developer-dark.svg"
         alt="Logo Marcelo Pereira"
         width={196}
@@ -14,7 +14,7 @@ export function LogoMarceloPereira() {
         priority
       />
       <Image
-        className="block dark:hidden w-[107px] lg:w-[198px]"
+        className="block dark:hidden w-[107px] md:w-[140px] lg:w-[198px]"
         src="/logos/logo-marcelo-pereira-frontend-developer-light.svg"
         alt="Logo Marcelo Pereira"
         width={196}

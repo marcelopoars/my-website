@@ -1,8 +1,8 @@
-import { LogoDicaDoNerd, LogoMarceloPereira } from '../logos'
+import { LogoDicaDoNerdHorizontal, LogoMarceloPereira } from '../logos'
 
 export function Footer() {
   return (
-    <footer className="pt-20">
+    <footer className="pt-12 lg:pt-20">
       <div className="container flex flex-col gap-10 font-mono font-medium py-6 md:flex-row md:justify-between md:pr-20">
         <LogoMarceloPereira />
 
@@ -45,7 +45,7 @@ export function Footer() {
 
           <div className="space-y-6">
             <div>
-              <LogoDicaDoNerd orientation="horizontal" />
+              <LogoDicaDoNerdHorizontal />
             </div>
 
             <ul className="space-y-4 text-muted-foreground">
