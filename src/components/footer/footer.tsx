@@ -88,10 +88,13 @@ export function Footer() {
         <hr className="bg-foreground/30 h-px" />
 
         <p className="text-muted-foreground text-center mt-8">
-          &copy; 2024 | Desenvolvido com ❤️ por{' '}
-          <a className="font-sans hover:text-primary" href="/">
-            <strong>Marcelo Pereira</strong>
-          </a>
+          &copy; 2024 | Desenvolvido com ❤️{' '}
+          <span className="whitespace-nowrap">
+            por{' '}
+            <a className="font-sans hover:text-primary" href="/">
+              <strong>Marcelo Pereira</strong>
+            </a>
+          </span>
           .
         </p>
       </div>
