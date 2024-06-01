@@ -5,7 +5,7 @@ import { Button } from '@/components/ui'
 
 export function BannerHome() {
   return (
-    <section className="bg-primary mb-10 md:mt-10 md:mb-20 xl:mb-28">
+    <section className="bg-primary mt-10 mb-10 md:mt-14 md:mb-20 xl:mt-24 xl:mb-28">
       <div className="relative container py-10 pb-44 md:py-10 lg:py-20">
         <div>
           <h2 className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl mb-8">
