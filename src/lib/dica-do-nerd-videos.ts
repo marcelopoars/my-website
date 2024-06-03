@@ -1,18 +1,20 @@
 export const dicaDoNerdVideos = [
   {
     title:
-      'Curso Html5 e Css3 - 10 - Semântica, Tags Header, Footer, Nav, Section, Main, Div',
-    thumb: '/dica-do-nerd/videos/video-01.png',
+      'Curso Html5 e Css3 - aula 10: Semântica, Tags Header, Footer, Nav, Section, Main, Div',
+    thumb: '/dica-do-nerd/videos/curos-html5-3-css3-aula-10-semantica.png',
     link: 'https://www.youtube.com/watch?v=NdAjp7X2CUI',
   },
   {
-    title: 'Curso de Html5 e Css3 - 13 - Primeiro projeto - Site responsivo',
-    thumb: '/dica-do-nerd/videos/video-01.png',
+    title:
+      'Curso de Html5 e Css3 - aula 13: Primeiro projeto - Site responsivo',
+    thumb:
+      '/dica-do-nerd/videos/curos-html5-3-css3-aula-13-projeto-pratico.png',
     link: 'https://www.youtube.com/watch?v=gfH6ZJuMuS8',
   },
   {
-    title: 'Dicas e atalhos para VS Code',
-    thumb: '/dica-do-nerd/videos/video-01.png',
+    title: 'Dicas e atalhos para Visual Studio Code',
+    thumb: '/dica-do-nerd/videos/dica-e-atalhos-para-visual-studio-code.png',
     link: 'https://www.youtube.com/watch?v=kGmKzTthLo0',
   },
 ]
