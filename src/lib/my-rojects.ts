@@ -5,7 +5,7 @@ export const lastProjects = [
     thumb: '/projects/cpd-website.png',
     githubLink: '',
     previewLink: 'https://www.cpd.com.br',
-    stack: ['ReactJs', 'NextJs', 'TypeScript', 'TailwindCSS', 'SEO'],
+    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
   },
   {
     name: 'Solaris Energia Solar',
@@ -13,15 +13,15 @@ export const lastProjects = [
     thumb: '/projects/solaris-website.png',
     githubLink: '',
     previewLink: 'https://www.solaris.eco.br',
-    stack: ['ReactJs', 'NextJs', 'TypeScript', 'TailwindCSS', 'SEO'],
+    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
   },
   {
-    name: 'Tailwind NextJs',
+    name: 'Tailwind NextJs App',
     projectType: 'App',
     thumb: '/projects/tailwind-nextjs-app.png',
     githubLink: 'https://github.com/marcelopoars/tailwind-nextjs',
     previewLink: 'https://tailwind-nextjs.marcelopereira.dev',
-    stack: ['ReactJs', 'NextJs', 'TypeScript', 'TailwindCSS'],
+    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
   },
   {
     name: 'Notes',
@@ -29,7 +29,7 @@ export const lastProjects = [
     thumb: '/projects/notes-nlw-expert-app.png',
     githubLink: 'https://github.com/marcelopoars/nlw-experts-notes',
     previewLink: 'https://notes.marcelopereira.dev',
-    stack: ['ReactJs', 'Vite', 'TypeScript', 'TailwindCSS'],
+    stack: ['reactjs', 'vitejs', 'typescript', 'tailwindcss'],
   },
   {
     name: 'Elaine | Costureira',
@@ -37,7 +37,7 @@ export const lastProjects = [
     thumb: '/projects/elaine-costureira-website.png',
     githubLink: '',
     previewLink: 'https://www.elainecostureira.com.br',
-    stack: ['ReactJs', 'NextJs', 'TypeScript', 'TailwindCSS', 'SEO'],
+    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
   },
   {
     name: 'Triplo A Seminovos',
@@ -45,6 +45,6 @@ export const lastProjects = [
     thumb: '/projects/triploa-seminovos-website.png',
     githubLink: '',
     previewLink: 'https://triploaseminovos.com.br',
-    stack: ['ReactJs', 'GatsbyJs', 'JavaScript', 'Styled-components', 'SEO'],
+    stack: ['reactjs', 'gatsbyjs', 'javascript', 'styledcomponents', 'seo'],
   },
 ]

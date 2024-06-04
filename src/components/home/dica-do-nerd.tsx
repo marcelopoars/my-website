@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import { dicaDoNerdVideos } from '@/lib'
 import { LogoDicaDoNerdVertical } from '../logos'
+import { IconExternalLink } from '@tabler/icons-react'
 
 export function DicaDoNerd() {
   return (
@@ -26,12 +27,13 @@ export function DicaDoNerd() {
 
           <div className="lg:flex lg:items-end lg:h-[61px]">
             <a
-              className="font-mono font-medium text-lg text-dica-do-nerd underline underline-offset-4 hover:text-muted-foreground"
+              className="flex items-center gap-2 font-mono font-medium text-lg text-dica-do-nerd underline underline-offset-4 hover:text-muted-foreground"
               href="https://youtube.com/DicaDoNerd/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Acessar canal
+              <IconExternalLink />
             </a>
           </div>
         </div>
@@ -56,7 +58,7 @@ export function DicaDoNerd() {
                   quality={100}
                   alt={title}
                 />
-                <h3 className="text-2xl font-medium line-clamp-2 mt-6 group-hover:text-dica-do-nerd lg:mt-10 transition">
+                <h3 className="text-xl font-medium line-clamp-2 mt-6 group-hover:text-dica-do-nerd lg:mt-10 transition">
                   {title}
                 </h3>
               </a>

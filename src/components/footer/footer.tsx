@@ -51,7 +51,7 @@ export function Footer() {
             <ul className="space-y-3 text-muted-foreground">
               <li>
                 <a
-                  className="inline-block hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
+                  className="group flex items-center gap-2 hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
                   href="https://youtube.com/DicaDoNerd/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="inline-block hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
+                  className="group flex items-center gap-2 hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
                   href="https://instagram.com/dicadonerd/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="inline-block hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
+                  className="group flex items-center gap-2 hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
                   href="https://t.me/dicadonerd/"
                   target="_blank"
                   rel="noopener noreferrer"
