@@ -9,7 +9,7 @@ export function Projects() {
           Projetos
         </h2>
 
-        <div className="grid  gap-8 gap-y-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 gap-y-12 md:grid-cols-2 lg:grid-cols-4">
           {lastProjects.map((project) => (
             <ProjectCard key={project.name} {...project} />
           ))}

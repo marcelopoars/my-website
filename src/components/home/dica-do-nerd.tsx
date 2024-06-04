@@ -38,7 +38,7 @@ export function DicaDoNerd() {
       </div>
 
       <div className="container pt-8 lg:pt-16">
-        <ul className="grid gap-8 lg:grid-cols-3">
+        <ul className="grid gap-6 lg:grid-cols-3">
           {dicaDoNerdVideos.map(({ title, thumb, link }) => (
             <li key={title}>
               <a
@@ -49,7 +49,7 @@ export function DicaDoNerd() {
                 title={title}
               >
                 <Image
-                  className="shadow-[6px_6px_0px_0px_rgba(219,58,52,1)] opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all"
+                  className="dark:opacity-85 group-hover:opacity-100 group-hover:scale-105 group-hover:shadow-[6px_6px_0px_0px_rgba(219,58,52,1)] transition"
                   src={thumb}
                   width={1000}
                   height={500}

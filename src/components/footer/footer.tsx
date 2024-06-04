@@ -9,10 +9,10 @@ export function Footer() {
         <aside className="flex gap-10 md:gap-16 lg:gap-32">
           <div className="space-y-6">
             <h4 className="text-xl">Me encontre</h4>
-            <ul className="space-y-4 text-muted-foreground">
+            <ul className="space-y-3 text-muted-foreground">
               <li>
                 <a
-                  className="hover:text-primary"
+                  className="inline-block hover:text-primary hover:underline underline-offset-4 py-1"
                   href="https://linkedin.com/in/marcelopoars/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -22,7 +22,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="hover:text-primary"
+                  className="inline-block hover:text-primary hover:underline underline-offset-4 py-1"
                   href="https://github.com/marcelopoars/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -32,7 +32,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="hover:text-primary"
+                  className="inline-block hover:text-primary hover:underline underline-offset-4 py-1"
                   href="https://api.whatsapp.com/send?phone=5551981838118&text=Ol%C3%A1!"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -48,10 +48,10 @@ export function Footer() {
               <LogoDicaDoNerdHorizontal />
             </div>
 
-            <ul className="space-y-4 text-muted-foreground">
+            <ul className="space-y-3 text-muted-foreground">
               <li>
                 <a
-                  className="hover:text-dica-do-nerd"
+                  className="inline-block hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
                   href="https://youtube.com/DicaDoNerd/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="hover:text-dica-do-nerd"
+                  className="inline-block hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
                   href="https://instagram.com/dicadonerd/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -71,7 +71,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="hover:text-dica-do-nerd"
+                  className="inline-block hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
                   href="https://t.me/dicadonerd/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -91,7 +91,10 @@ export function Footer() {
           &copy; 2024 | Desenvolvido com ❤️{' '}
           <span className="whitespace-nowrap">
             por{' '}
-            <a className="font-sans hover:text-primary" href="/">
+            <a
+              className="font-sans hover:text-primary hover:underline underline-offset-4 py-1"
+              href="/"
+            >
               <strong>Marcelo Pereira</strong>
             </a>
           </span>

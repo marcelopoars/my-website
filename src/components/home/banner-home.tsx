@@ -8,7 +8,7 @@ export function BannerHome() {
     <section className="bg-primary mt-10 mb-10 md:mt-14 md:mb-20 xl:mt-24 xl:mb-28">
       <div className="relative container py-10 pb-44 md:py-10 lg:py-20">
         <div>
-          <h2 className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl mb-8">
+          <h2 className="text-white text-4xl md:text-4xl lg:text-6xl xl:text-7xl mb-8">
             <span className="block">Vamos dar o play</span> no seu projeto?
           </h2>
           <Button variant={'black'} asChild>
@@ -28,6 +28,7 @@ export function BannerHome() {
           width={678}
           height={449}
           alt="Imagem de um notebook"
+          quality={100}
         />
       </div>
     </section>

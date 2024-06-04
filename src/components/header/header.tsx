@@ -6,7 +6,7 @@ export function Header() {
     <header>
       <div className="container flex items-center justify-between pt-12 pb-14 lg:pt-20 lg:pb-28">
         <LogoMarceloPereira />
-        <div className=" items-center gap-4 font-mono font-semibold">
+        <div className="flex items-center gap-4 font-mono font-semibold">
           <Button variant={'secondary'}>contato</Button>
           <ThemeToggle />
         </div>
