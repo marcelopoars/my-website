@@ -10,12 +10,12 @@ import {
   IconBrandVite,
   IconWorldSearch,
 } from '@tabler/icons-react'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 interface ProjectCardProps {
   name: string
   projectType: string
-  thumb: string
+  thumb: StaticImageData
   githubLink: string
   previewLink: string
   stack: string[]
