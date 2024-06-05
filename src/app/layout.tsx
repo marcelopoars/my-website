@@ -20,8 +20,26 @@ const fontNono = FontNono({
 })
 
 export const metadata: Metadata = {
-  title: 'Marcelo Pereira',
-  description: 'Frontend Developer',
+  generator: 'Next.js',
+  applicationName: 'Marcelo Pereira - Website',
+  category: 'technology',
+  authors: [{ name: 'Marcelo Pereira', url: 'https://marcelopereira.dev/' }],
+  creator: 'Marcelo Pereira',
+  title: 'Marcelo Pereira | Full Stack Developer',
+  description:
+    'Projeto e Desenvolvimento de sites, landing pages e aplicações web.',
+  metadataBase: new URL('https://marcelopereira.dev/'),
+  openGraph: {
+    type: 'website',
+    countryName: 'Brasil',
+    url: 'https://marcelopereira.dev/',
+    locale: 'pt_br',
+  },
+  manifest: '/site.webmanifest',
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({
