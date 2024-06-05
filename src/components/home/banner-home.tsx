@@ -3,6 +3,8 @@ import { ArrowRightIcon } from '@radix-ui/react-icons'
 
 import { Button } from '@/components/ui'
 
+import laptopImage from '@/assets/laptop-image.png'
+
 export function BannerHome() {
   return (
     <section className="bg-primary mt-10 mb-10 md:mt-14 md:mb-20 xl:mt-24 xl:mb-28">
@@ -24,7 +26,7 @@ export function BannerHome() {
 
         <Image
           className="absolute  w-[340px] -bottom-16 right-[calc((100vw-360px)/2)] md:w-[420px] md:-bottom-20 md:right-0 lg:w-[574px] lg:-bottom-24 xl:w-[660px] xl:-bottom-32 xl:-right-5"
-          src="/laptop-image.png"
+          src={laptopImage}
           width={678}
           height={449}
           alt="Imagem de um notebook"

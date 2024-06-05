@@ -53,10 +53,11 @@ export function DicaDoNerd() {
                 <Image
                   className="dark:opacity-85 group-hover:opacity-100 group-hover:scale-105 group-hover:shadow-[6px_6px_0px_0px_rgba(219,58,52,1)] transition"
                   src={thumb}
-                  width={1000}
-                  height={500}
+                  width={1280}
+                  height={720}
                   quality={100}
                   alt={title}
+                  placeholder="blur"
                 />
                 <h3 className="text-xl font-medium line-clamp-2 mt-6 group-hover:text-dica-do-nerd lg:mt-10 transition">
                   {title}

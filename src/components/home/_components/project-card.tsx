@@ -49,9 +49,10 @@ export function ProjectCard({
             className="dark:opacity-85 dark:border dark:border-muted-foreground/30 group-hover:opacity-100 group-hover:shadow-[6px_6px_0px_0px_rgba(116,70,254,1)] group-hover:scale-105 transition"
             src={thumb}
             width={1366}
-            height={7680}
+            height={768}
             quality={100}
             alt="Screenshot da aplicação"
+            placeholder="blur"
           />
 
           <ul className="absolute bottom-2 right-2 flex justify-end items-center gap-2">

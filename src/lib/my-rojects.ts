@@ -1,8 +1,15 @@
+import cpdThumb from '@/assets/projects/cpd-website.png'
+import elaineCostureiraThumb from '@/assets/projects/elaine-costureira-website.png'
+import notesNlwExpertThumb from '@/assets/projects/notes-nlw-expert-app.png'
+import solarisThumb from '@/assets/projects/solaris-website.png'
+import tailwindNextJsThumb from '@/assets/projects/tailwind-nextjs-app.png'
+import triploASeminovosThumb from '@/assets/projects/triploa-seminovos-website.png'
+
 export const lastProjects = [
   {
     name: 'CPD',
     projectType: 'Website',
-    thumb: '/projects/cpd-website.png',
+    thumb: cpdThumb,
     githubLink: '',
     previewLink: 'https://www.cpd.com.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
@@ -10,7 +17,7 @@ export const lastProjects = [
   {
     name: 'Solaris Energia Solar',
     projectType: 'Landing page',
-    thumb: '/projects/solaris-website.png',
+    thumb: solarisThumb,
     githubLink: '',
     previewLink: 'https://www.solaris.eco.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
@@ -18,7 +25,7 @@ export const lastProjects = [
   {
     name: 'Tailwind NextJs App',
     projectType: 'App',
-    thumb: '/projects/tailwind-nextjs-app.png',
+    thumb: tailwindNextJsThumb,
     githubLink: 'https://github.com/marcelopoars/tailwind-nextjs',
     previewLink: 'https://tailwind-nextjs.marcelopereira.dev',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
@@ -26,7 +33,7 @@ export const lastProjects = [
   {
     name: 'Notes',
     projectType: 'App',
-    thumb: '/projects/notes-nlw-expert-app.png',
+    thumb: notesNlwExpertThumb,
     githubLink: 'https://github.com/marcelopoars/nlw-experts-notes',
     previewLink: 'https://notes.marcelopereira.dev',
     stack: ['reactjs', 'vitejs', 'typescript', 'tailwindcss'],
@@ -34,7 +41,7 @@ export const lastProjects = [
   {
     name: 'Elaine | Costureira',
     projectType: 'Landing page',
-    thumb: '/projects/elaine-costureira-website.png',
+    thumb: elaineCostureiraThumb,
     githubLink: '',
     previewLink: 'https://www.elainecostureira.com.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
@@ -42,7 +49,7 @@ export const lastProjects = [
   {
     name: 'Triplo A Seminovos',
     projectType: 'Website',
-    thumb: '/projects/triploa-seminovos-website.png',
+    thumb: triploASeminovosThumb,
     githubLink: '',
     previewLink: 'https://triploaseminovos.com.br',
     stack: ['reactjs', 'gatsbyjs', 'javascript', 'styledcomponents', 'seo'],
