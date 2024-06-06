@@ -4,6 +4,7 @@ import notesNlwExpertThumb from '@/assets/projects/notes-nlw-expert-app.png'
 import solarisThumb from '@/assets/projects/solaris-website.png'
 import tailwindNextJsThumb from '@/assets/projects/tailwind-nextjs-app.png'
 import triploASeminovosThumb from '@/assets/projects/triploa-seminovos-website.png'
+import githubBlogThumb from '@/assets/projects/github-blog.png'
 
 export const lastProjects = [
   {
@@ -21,6 +22,14 @@ export const lastProjects = [
     githubLink: '',
     previewLink: 'https://www.solaris.eco.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
+  },
+  {
+    name: 'Github Blog',
+    projectType: 'Blog',
+    thumb: githubBlogThumb,
+    githubLink: 'https://github.com/marcelopoars/ignite-github-blog',
+    previewLink: 'https://ignite-github-blog.marcelopereira.dev/',
+    stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents', 'githubapi'],
   },
   {
     name: 'Tailwind NextJs App',

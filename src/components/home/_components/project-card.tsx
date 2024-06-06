@@ -23,6 +23,7 @@ interface ProjectCardProps {
 
 const stackIconsMap: Record<string, JSX.Element> = {
   gatsbyjs: <IconBrandGatsby />,
+  githubapi: <IconBrandGithub />,
   javascript: <IconBrandJavascript />,
   nextjs: <IconBrandNextjs />,
   reactjs: <IconBrandReact />,
