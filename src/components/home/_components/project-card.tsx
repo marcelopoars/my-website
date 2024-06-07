@@ -1,5 +1,6 @@
 import { StyledComponentsIcon } from '@/components/icons'
 import {
+  IconBrandCss3,
   IconBrandGatsby,
   IconBrandGithub,
   IconBrandJavascript,
@@ -22,6 +23,7 @@ interface ProjectCardProps {
 }
 
 const stackIconsMap: Record<string, JSX.Element> = {
+  css3: <IconBrandCss3 />,
   gatsbyjs: <IconBrandGatsby />,
   githubapi: <IconBrandGithub />,
   javascript: <IconBrandJavascript />,

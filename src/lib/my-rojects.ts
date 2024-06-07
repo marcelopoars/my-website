@@ -7,6 +7,7 @@ import triploASeminovosThumb from '@/assets/projects/triploa-seminovos-website.p
 import githubBlogThumb from '@/assets/projects/github-blog.png'
 import coffeeDeliveryThumb from '@/assets/projects/coffee-delivery.png'
 import timerThumb from '@/assets/projects/timer.png'
+import todoThumb from '@/assets/projects/todo.png'
 
 export const lastProjects = [
   {
@@ -64,6 +65,14 @@ export const lastProjects = [
     githubLink: 'https://github.com/marcelopoars/nlw-experts-notes',
     previewLink: 'https://notes.marcelopereira.dev',
     stack: ['reactjs', 'vitejs', 'typescript', 'tailwindcss'],
+  },
+  {
+    name: 'Todo',
+    projectType: 'App',
+    thumb: todoThumb,
+    githubLink: 'https://github.com/marcelopoars/ignite-todo-list',
+    previewLink: 'https://ignite-todo-list.marcelopereira.dev/',
+    stack: ['reactjs', 'vitejs', 'typescript', 'css3'],
   },
   {
     name: 'Elaine | Costureira',
