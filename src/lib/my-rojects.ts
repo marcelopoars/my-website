@@ -6,6 +6,7 @@ import tailwindNextJsThumb from '@/assets/projects/tailwind-nextjs-app.png'
 import triploASeminovosThumb from '@/assets/projects/triploa-seminovos-website.png'
 import githubBlogThumb from '@/assets/projects/github-blog.png'
 import coffeeDeliveryThumb from '@/assets/projects/coffee-delivery.png'
+import timerThumb from '@/assets/projects/timer.png'
 
 export const lastProjects = [
   {
@@ -38,6 +39,14 @@ export const lastProjects = [
     thumb: coffeeDeliveryThumb,
     githubLink: 'https://github.com/marcelopoars/ignite-coffee-delivery',
     previewLink: 'https://coffee-delivery.marcelopereira.dev/',
+    stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
+  },
+  {
+    name: 'Timer',
+    projectType: 'App',
+    thumb: timerThumb,
+    githubLink: 'https://github.com/marcelopoars/ignite-timer',
+    previewLink: 'https://ignite-timer.marcelopereira.dev/',
     stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
   },
   {
