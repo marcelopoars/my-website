@@ -70,7 +70,7 @@ export function ProjectCard({
           </ul>
         </div>
 
-        <h3 className="text-2xl mt-5">{name}</h3>
+        <h3 className="text-xl mt-5 lg:text-2xl">{name}</h3>
         <span className="block text-muted-foreground">{projectType}</span>
       </header>
 

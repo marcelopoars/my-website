@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   category: 'technology',
   authors: [{ name: 'Marcelo Pereira', url: 'https://marcelopereira.dev/' }],
   creator: 'Marcelo Pereira',
-  title: 'Marcelo Pereira | Full Stack Developer',
+  title: 'Marcelo Pereira | Desenvolvedor Frontend',
   description:
     'Projeto e Desenvolvimento de sites, landing pages e aplicações web.',
   metadataBase: new URL('https://marcelopereira.dev/'),
@@ -52,8 +52,7 @@ export default function RootLayout({
       <body className={cn(fontSans.variable, fontNono.variable)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
           disableTransitionOnChange
         >
           <Header />

@@ -81,8 +81,10 @@ const config = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       backgroundImage: {
-        'radial-gradient':
+        'radial-gradient-top-to-bottom':
           'radial-gradient(42.54% 95.72% at 50% -45.58%, rgba(116, 70, 254, 0.30) 0%, rgba(116, 70, 254, 0.00) 100%)',
+        'radial-gradient-bottom-to-top':
+          'radial-gradient(42.54% 95.72% at 50% calc(100% + 45.58%), rgba(116, 70, 254, 0.30) 0%, rgba(116, 70, 254, 0.00) 100%)',
       },
     },
   },
