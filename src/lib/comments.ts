@@ -1,20 +1,14 @@
 export const comments = [
   {
     content:
-      'Foi incrível trabalhar com Marcelo no projeto do nosso site empresarial. Sua dedicação, criatividade e expertise trouxeram uma nova vida à nossa presença online, elevando nossa marca a novos patamares.',
+      'A dedicação e o profissionalismo do Marcelo são notáveis desde o primeiro contato. Ele não apenas entendeu nossas necessidades, mas também sugeriu soluções diferentes para a funcionalidade e manutenção do nosso site. Ficamos muito contentes com o resultado. Obrigada pelo excelente trabalho!',
     client: 'Luísa Trento',
     role: 'Diretora de marketing na CPD',
   },
   {
     content:
-      'O trabalho do Marcelo como desenvolvedor web é simplesmente excepcional. Ele criou um site incrivelmente intuitivo e visualmente atraente que excedeu todas as nossas expectativas.',
-    client: 'João Silva',
-    role: 'Gerente de Projetos',
-  },
-  {
-    content:
-      'Estamos extremamente satisfeitos com o site desenvolvido por Marcelo. Ele demonstrou um alto nível de profissionalismo e habilidade técnica, entregando um produto final que não apenas atende, mas supera nossos requisitos.',
-    client: 'Maria Oliveira',
-    role: 'Diretora de Marketing',
+      'Graças ao site criado pelo Marcelo, estou recebendo muitos novos clientes de Canoas e região. Eles estão encontrando meu número no site e chegando até mim. Adorei a sugestão de reformas na hora, que trouxe ainda mais clientes. Meu negócio cresceu muito, só tenho a agradecer!',
+    client: 'Elaine Gouvêa',
+    role: 'Costureira',
   },
 ]
