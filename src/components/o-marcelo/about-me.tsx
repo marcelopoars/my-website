@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const tools = [
   'React.js',
@@ -45,10 +45,7 @@ export function AboutMe() {
               interfaces web utilizando tecnologias como{' '}
               {tools.map((tool) => (
                 <React.Fragment key={tool}>
-                  <span className="text-primary font-medium">
-                    {tool}
-                  </span>
-                  ,{' '}
+                  <span className="text-primary font-medium">{tool}</span>,{' '}
                 </React.Fragment>
               ))}
               entre outras.
