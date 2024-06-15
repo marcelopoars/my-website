@@ -1,3 +1,5 @@
+import React from "react"
+
 const tools = [
   'React.js',
   'Next.js',
@@ -18,6 +20,7 @@ const tools = [
   'Azure',
   'AWS',
 ]
+
 export function AboutMe() {
   return (
     <section>
@@ -41,12 +44,12 @@ export function AboutMe() {
               Profissional com muita experiência em desenvolvimento de
               interfaces web utilizando tecnologias como{' '}
               {tools.map((tool) => (
-                <>
-                  <span key={tool} className="text-primary font-medium">
+                <React.Fragment key={tool}>
+                  <span className="text-primary font-medium">
                     {tool}
                   </span>
                   ,{' '}
-                </>
+                </React.Fragment>
               ))}
               entre outras.
             </p>

@@ -16,7 +16,7 @@ export function HeroLinks() {
       <div className="flex items-center gap-2">
         <Button variant="outline" size="icon" asChild>
           <a
-            href="https://www.linkedin.com/in/marcelopoars/"
+            href="https://github.com/marcelopoars/"
             target="_blank"
             rel="noopener noreferrer"
           >
