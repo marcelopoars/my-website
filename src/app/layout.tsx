@@ -25,7 +25,10 @@ export const metadata: Metadata = {
   category: 'technology',
   authors: [{ name: 'Marcelo Pereira', url: 'https://marcelopereira.dev/' }],
   creator: 'Marcelo Pereira',
-  title: 'Marcelo Pereira | Desenvolvedor Frontend',
+  title: {
+    template: '%s | Desenvolvedor Frontend',
+    default: 'Marcelo Pereira | Desenvolvedor Frontend',
+  },
   description:
     'Projeto e Desenvolvimento de sites, landing pages e aplicações web.',
   metadataBase: new URL('https://marcelopereira.dev/'),
