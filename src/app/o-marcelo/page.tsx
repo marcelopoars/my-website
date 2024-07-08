@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 
-import { AboutMe, HeroMarcelo } from '@/components'
+import { AboutMe, Experiences, HeroMarcelo } from '@/components'
 
 export const metadata: Metadata = {
   title: 'o Marcelo',
@@ -13,6 +13,7 @@ export default function Page() {
     <>
       <HeroMarcelo />
       <AboutMe />
+      <Experiences />
     </>
   )
 }
