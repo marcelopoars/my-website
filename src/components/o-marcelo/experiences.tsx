@@ -10,8 +10,8 @@ import {
 export function Experiences() {
   return (
     <section className="relative pt-28 overflow-hidden">
-      <div className="absolute top-0 bottom-0 z-10 w-[calc((100vw-1240px+24px)/2)] bg-gradient-to-r from-black/100 to-black/0" />
-      <div className="absolute top-0 bottom-0 right-0 z-10 w-[calc((100vw-1240px+24px)/2)] bg-gradient-to-l from-black/100 to-black/0" />
+      <div className="absolute top-0 bottom-0 z-10 w-[calc((100vw-1240px+24px)/2)] bg-gradient-to-r from-background to-background/0" />
+      <div className="absolute top-0 bottom-0 right-0 z-10 w-[calc((100vw-1240px+24px)/2)] bg-gradient-to-l from-background/100 to-background/0" />
 
       <div className="container">
         <h2 className="text-2xl font-mono font-medium mb-10">
@@ -41,7 +41,7 @@ export function Experiences() {
                 <ul className="flex flex-wrap gap-2">
                   {stack.map((item) => (
                     <li key={item}>
-                      <span className="inline-block text-sm font-mono font-medium border py-1.5 px-4 rounded-full">
+                      <span className="inline-block text-sm font-mono font-medium border border-muted-foreground/40 py-1.5 px-4 rounded-full">
                         {item}
                       </span>
                     </li>
