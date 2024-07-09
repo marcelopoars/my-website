@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import { ArrowRightIcon } from '@radix-ui/react-icons'
+import Image from 'next/image'
 
 import { Button } from '@/components/ui'
 
