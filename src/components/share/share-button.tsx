@@ -1,7 +1,6 @@
 'use client'
 
 import { IconShare3 } from '@tabler/icons-react'
-import { Button } from '../ui'
 
 interface ShareButtonProps {
   canonicalUrl: string
@@ -24,13 +23,8 @@ export function ShareButton({ canonicalUrl, titleSite }: ShareButtonProps) {
   }
 
   return (
-    <Button
-      className="gap-2"
-      variant={'outline'}
-      size={'icon'}
-      onClick={handleShare}
-    >
+    <button className="p-1 hover:text-primary transition" onClick={handleShare}>
       <IconShare3 />
-    </Button>
+    </button>
   )
 }

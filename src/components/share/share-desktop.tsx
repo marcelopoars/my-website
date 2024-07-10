@@ -16,7 +16,7 @@ export function ShareDesktop({ canonicalUrl, titleSite }: ShareDesktopProps) {
   const whatsAppUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(canonicalUrl)}`
 
   return (
-    <div className="hidden lg:flex items-center gap-1 lg:mt-4">
+    <div className="hidden lg:flex items-center gap-1">
       <span className="text-muted-foreground">Compartilhar:</span>
       <ul className="flex items-center">
         <li>
