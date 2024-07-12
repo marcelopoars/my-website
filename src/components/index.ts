@@ -4,6 +4,7 @@ export * from './cta-banner'
 export * from './footer'
 export * from './header'
 export * from './icons'
+export * from './popover'
 export * from './share'
 
 // Shadcn UI
