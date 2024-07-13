@@ -1,9 +1,11 @@
 import {
   IconBrandFacebook,
+  IconBrandLinkedin,
   IconBrandWhatsapp,
   IconBrandX,
 } from '@tabler/icons-react'
 import { ShareButton } from './share-button'
+import { ShareLink } from './share-link'
 
 interface ShareDesktopProps {
   canonicalUrl: string
@@ -11,46 +13,50 @@ interface ShareDesktopProps {
 }
 
 export function ShareDesktop({ canonicalUrl, titleSite }: ShareDesktopProps) {
-  const facebookURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}&t=${encodeURIComponent(titleSite)}`
-  const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(canonicalUrl)}&text=${encodeURIComponent(titleSite)}`
-  const whatsAppUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(canonicalUrl)}`
+  const whatsAppUrl = `https://api.whatsapp.com/send?text=${canonicalUrl}`
+  const linkedinShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${canonicalUrl}&title=${titleSite}`
+  const facebookURL = `https://www.facebook.com/sharer/sharer.php?u=${canonicalUrl}&t=${titleSite}`
+  const twitterUrl = `https://twitter.com/intent/tweet?url=${canonicalUrl}&text=${titleSite}`
 
   return (
     <div className="hidden lg:flex items-center gap-1">
       <span className="text-muted-foreground">Compartilhar:</span>
       <ul className="flex items-center">
         <li>
-          <a
-            className="inline-block p-1 hover:text-primary transition"
-            href={facebookURL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Compartilhar no Facebook"
+          <ShareLink
+            href={linkedinShareUrl}
+            title="Compartilhar no LinkedIn"
+            aria-label="Compartilhar no LinkedIn"
           >
-            <IconBrandFacebook />
-          </a>
+            <IconBrandLinkedin />
+          </ShareLink>
         </li>
         <li>
-          <a
-            className="inline-block p-1 hover:text-primary transition"
+          <ShareLink
             href={whatsAppUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            title="Compartilhar no WhatsApp"
             aria-label="Compartilhar no WhatsApp"
           >
             <IconBrandWhatsapp />
-          </a>
+          </ShareLink>
         </li>
         <li>
-          <a
-            className="inline-block p-1 hover:text-primary transition"
+          <ShareLink
+            href={facebookURL}
+            title="Compartilhar no Facebook"
+            aria-label="Compartilhar no Facebook"
+          >
+            <IconBrandFacebook />
+          </ShareLink>
+        </li>
+        <li>
+          <ShareLink
             href={twitterUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            title="Compartilhar no X"
             aria-label="Compartilhar no X"
           >
             <IconBrandX />
-          </a>
+          </ShareLink>
         </li>
         <li>
           <ShareButton canonicalUrl={canonicalUrl} titleSite={titleSite} />

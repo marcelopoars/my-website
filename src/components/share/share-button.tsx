@@ -12,6 +12,7 @@ export function ShareButton({ canonicalUrl, titleSite }: ShareButtonProps) {
     url: canonicalUrl,
     title: titleSite,
   }
+
   const handleShare = () => {
     if (navigator.canShare(shareData)) {
       try {
@@ -23,7 +24,11 @@ export function ShareButton({ canonicalUrl, titleSite }: ShareButtonProps) {
   }
 
   return (
-    <button className="p-1 hover:text-primary transition" onClick={handleShare}>
+    <button
+      className="p-1 text-primary lg:hover:text-foreground transition"
+      onClick={handleShare}
+      title="Ver mais opções"
+    >
       <IconShare3 />
     </button>
   )
