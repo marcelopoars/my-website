@@ -1,4 +1,28 @@
-export const experiences = [
+type Stack =
+  | 'AWS'
+  | 'CSS'
+  | 'HTML'
+  | 'Next.Js'
+  | 'PHP'
+  | 'JavaScript'
+  | 'React.js'
+  | 'SEO'
+  | 'Styled-components'
+  | 'Tailwind CSS'
+  | 'TypeScript'
+  | 'Solução de Problemas Técnicos'
+  | 'Manutenção de Computadores'
+  | 'Suporte ao Usuário'
+  | 'Manutenção Preventiva'
+
+interface Experiences {
+  company: string
+  role: string
+  description: string
+  stack: Stack[]
+}
+
+export const experiences: Experiences[] = [
   {
     company: 'Grupo RBS',
     role: 'Desenvolvedor Front-End Sênior',
@@ -12,6 +36,7 @@ export const experiences = [
       'Tailwind CSS',
       'HTML',
       'CSS',
+      'SEO',
     ],
   },
   {
@@ -42,6 +67,7 @@ export const experiences = [
       'CSS',
       'Styled-components',
       'AWS',
+      'SEO',
     ],
   },
   {
@@ -57,5 +83,24 @@ export const experiences = [
     description:
       'Como pequeno empreeendedor tinha várias funções na empresa como, atender clientes, fornecedores e parceiros. Era responsável pelo Marketing, site e redes sociais da empresa. Atuei como Desenvolvedor Frontend desenvolvendo e dando manutenção no site da empresa. Atuei como Designer Gráfico onde fui responsável pelo desenvolvimento da marca e criação de peças para campanhas de marketing online e off-line.',
     stack: ['JavaScript', 'HTML', 'CSS'],
+  },
+  {
+    company: 'Santa Casa de Misericórdia de Porto Alegre',
+    role: 'Analista de Desenvolvimento Web',
+    description:
+      'Atuei como Analista de Desenvolvimento Web no Centro Histórico-Cultural e no Marketing da Santa Casa de Porto Alegre apoiando historiadores e equipes de marketing na criação de campanhas e eventos da instituição. Fui responsável pelo desenvolvimento e manutenção de sites, landing pages e intranet da empresa. Também atuei como designer gráfico diagramando banners, livros e peças publicitárias para redes sociais.',
+    stack: ['JavaScript', 'HTML', 'CSS', 'PHP', 'SEO'],
+  },
+  {
+    company: 'Santa Casa de Misericórdia de Porto Alegre',
+    role: 'Técnico em Informática',
+    description:
+      'Autei como Técnico em Informática atendendo aos chamados abertos pelos usuários/colaboradores da empresa. Responsável por realizar ações de manutenção preventiva, instalação de impressoras, realizar análises de viabilidade de melhorias, upgrades de hardware e aquisições de novos equipamentos.',
+    stack: [
+      'Solução de Problemas Técnicos',
+      'Manutenção de Computadores',
+      'Suporte ao Usuário',
+      'Manutenção Preventiva',
+    ],
   },
 ]
