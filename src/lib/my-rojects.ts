@@ -31,7 +31,7 @@ export const lastProjects = [
     projectType: 'Blog',
     thumb: githubBlogThumb,
     githubLink: 'https://github.com/marcelopoars/ignite-github-blog',
-    previewLink: 'https://ignite-github-blog.marcelopereira.dev/',
+    previewLink: 'https://ignite-github-blog.marcelopereira.com.br/',
     stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents', 'githubapi'],
   },
   {
@@ -39,7 +39,7 @@ export const lastProjects = [
     projectType: 'App',
     thumb: coffeeDeliveryThumb,
     githubLink: 'https://github.com/marcelopoars/ignite-coffee-delivery',
-    previewLink: 'https://coffee-delivery.marcelopereira.dev/',
+    previewLink: 'https://coffee-delivery.marcelopereira.com.br/',
     stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
   },
   {
@@ -47,7 +47,7 @@ export const lastProjects = [
     projectType: 'App',
     thumb: timerThumb,
     githubLink: 'https://github.com/marcelopoars/ignite-timer',
-    previewLink: 'https://ignite-timer.marcelopereira.dev/',
+    previewLink: 'https://ignite-timer.marcelopereira.com.br/',
     stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
   },
   {
@@ -55,7 +55,7 @@ export const lastProjects = [
     projectType: 'App',
     thumb: tailwindNextJsThumb,
     githubLink: 'https://github.com/marcelopoars/tailwind-nextjs',
-    previewLink: 'https://tailwind-nextjs.marcelopereira.dev',
+    previewLink: 'https://tailwind-nextjs.marcelopereira.com.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
   },
   {
@@ -63,7 +63,7 @@ export const lastProjects = [
     projectType: 'App',
     thumb: notesNlwExpertThumb,
     githubLink: 'https://github.com/marcelopoars/nlw-experts-notes',
-    previewLink: 'https://notes.marcelopereira.dev',
+    previewLink: 'https://notes.marcelopereira.com.br',
     stack: ['reactjs', 'vitejs', 'typescript', 'tailwindcss'],
   },
   {
@@ -71,7 +71,7 @@ export const lastProjects = [
     projectType: 'App',
     thumb: todoThumb,
     githubLink: 'https://github.com/marcelopoars/ignite-todo-list',
-    previewLink: 'https://ignite-todo-list.marcelopereira.dev/',
+    previewLink: 'https://ignite-todo-list.marcelopereira.com.br/',
     stack: ['reactjs', 'vitejs', 'typescript', 'css3'],
   },
   {

@@ -1,7 +1,7 @@
 import { ShareDesktop } from './share-desktop'
 import { ShareMobile } from './share-mobile'
 
-const canonicalUrl = 'https://www.marcelopereira.dev/'
+const canonicalUrl = 'https://www.marcelopereira.com.br/'
 const titleSite = 'Marcelo Pereira | Desenvolvedor Frontend'
 
 export function Share() {
