@@ -46,6 +46,16 @@ export function Footer() {
               <li>
                 <a
                   className="inline-block hover:text-primary hover:underline underline-offset-4 py-1"
+                  href="https://instagram.com/marcelopereira.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  className="inline-block hover:text-primary hover:underline underline-offset-4 py-1"
                   href="https://linkedin.com/in/marcelopoars/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,16 +73,6 @@ export function Footer() {
                   Github
                 </a>
               </li>
-              <li>
-                <a
-                  className="inline-block hover:text-primary hover:underline underline-offset-4 py-1"
-                  href="https://api.whatsapp.com/send?phone=5551981838118&text=Ol%C3%A1!"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  WhatsApp
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -85,21 +85,21 @@ export function Footer() {
               <li>
                 <a
                   className="group flex items-center gap-2 hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
-                  href="https://youtube.com/DicaDoNerd/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Youtube
-                </a>
-              </li>
-              <li>
-                <a
-                  className="group flex items-center gap-2 hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
                   href="https://instagram.com/dicadonerd/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  className="group flex items-center gap-2 hover:text-dica-do-nerd hover:underline underline-offset-4 py-1"
+                  href="https://youtube.com/DicaDoNerd/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Youtube
                 </a>
               </li>
               <li>
