@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Button } from '@/components'
 
 export const metadata: Metadata = {
-  title: 'Erro 404 | Marcelo Pereira',
+  title: 'Erro 404 | Marcelo Pereira | Desenvolvimento de Software',
   description: 'Ops! Esta página não existe.',
 }
 

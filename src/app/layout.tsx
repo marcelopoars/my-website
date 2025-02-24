@@ -21,16 +21,16 @@ const fontNono = FontNono({
 
 export const metadata: Metadata = {
   generator: 'Next.js',
-  applicationName: 'Marcelo Pereira - Website',
+  applicationName: 'Marcelo Pereira | Website',
   category: 'technology',
   authors: [{ name: 'Marcelo Pereira', url: 'https://marcelopereira.com.br/' }],
-  creator: 'Marcelo Pereira',
+  creator: 'Marcelo Pereira | Desenvolvimento de Software',
   title: {
-    template: '%s | Desenvolvedor Frontend',
-    default: 'Marcelo Pereira | Desenvolvedor Frontend',
+    template: '%s | Marcelo Pereira | Desenvolvimento de Software',
+    default: 'Marcelo Pereira | Desenvolvimento de Software',
   },
   description:
-    'Projeto e Desenvolvimento de sites, landing pages e aplicações web.',
+    'Desenvolvemos software, SaaS, sites e landing pages. Tecnologia e expertise para seu projeto.',
   metadataBase: new URL('https://marcelopereira.com.br/'),
   openGraph: {
     type: 'website',
