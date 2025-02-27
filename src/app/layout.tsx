@@ -23,7 +23,9 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   applicationName: 'Marcelo Pereira | Website',
   category: 'technology',
-  authors: [{ name: 'Marcelo Pereira', url: 'https://marcelopereira.com.br/' }],
+  authors: [
+    { name: 'Marcelo Pereira', url: 'https://www.marcelopereira.com.br/' },
+  ],
   creator: 'Marcelo Pereira | Desenvolvimento de Software',
   title: {
     template: '%s | Marcelo Pereira | Desenvolvimento de Software',
@@ -31,11 +33,11 @@ export const metadata: Metadata = {
   },
   description:
     'Desenvolvemos software, SaaS, sites e landing pages. Tecnologia e expertise para seu projeto.',
-  metadataBase: new URL('https://marcelopereira.com.br/'),
+  metadataBase: new URL('https://www.marcelopereira.com.br/'),
   openGraph: {
     type: 'website',
     countryName: 'Brasil',
-    url: 'https://marcelopereira.com.br/',
+    url: 'https://www.marcelopereira.com.br/',
     locale: 'pt_br',
   },
   manifest: '/site.webmanifest',
