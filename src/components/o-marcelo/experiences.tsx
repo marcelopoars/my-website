@@ -23,7 +23,7 @@ export function Experiences() {
         <CarouselContent className="xl:ml-[calc((100vw-1440px+32px)/2)] pt-2">
           {experiences.map(({ company, role, description, stack }) => (
             <CarouselItem
-              key={company}
+              key={`${company}-${role}`}
               className="relative max-w-[80vw] text-pretty ml-0 pt-10 border-t select-none md:max-w-[420px] lg:pl-0"
             >
               <div className="absolute -top-2 l-0 size-4 bg-primary rounded-full" />
