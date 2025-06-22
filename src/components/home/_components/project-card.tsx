@@ -12,6 +12,7 @@ import {
   IconWorldSearch,
 } from '@tabler/icons-react'
 import Image, { StaticImageData } from 'next/image'
+import { JSX } from 'react'
 
 interface ProjectCardProps {
   name: string
