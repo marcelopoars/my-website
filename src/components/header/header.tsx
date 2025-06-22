@@ -49,7 +49,7 @@ export function Header() {
 
         {/* MENU MOBILE */}
         <nav className="md:hidden flex ml-3">
-          <Sheet open={true} onOpenChange={setIsOpen}>
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger className="p-2">
               <IconMenuDeep />
             </SheetTrigger>
