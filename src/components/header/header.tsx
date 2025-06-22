@@ -47,21 +47,23 @@ export function Header() {
           <ThemeToggle />
         </div>
 
+        {/* MENU MOBILE */}
         <nav className="md:hidden flex ml-3">
-          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+          <Sheet open={true} onOpenChange={setIsOpen}>
             <SheetTrigger className="p-2">
               <IconMenuDeep />
             </SheetTrigger>
-            <SheetContent className="">
+            <SheetContent>
               <SheetHeader>
                 <SheetTitle className="text-left">Menu</SheetTitle>
               </SheetHeader>
-              <div className="flex flex-col items-center justify-between py-8 space-y-3 h-full">
-                <div className="flex flex-col">
+              <div className="flex flex-col justify-between py-8 space-y-3 h-full">
+                <div className="flex flex-col space-y-3 text-left">
                   <Button
                     asChild
                     variant={'link'}
                     onClick={() => setIsOpen(false)}
+                    className="justify-start pl-0"
                   >
                     <Link href="/">home</Link>
                   </Button>
@@ -70,6 +72,7 @@ export function Header() {
                     asChild
                     variant={'link'}
                     onClick={() => setIsOpen(false)}
+                    className="justify-start pl-0"
                   >
                     <Link href="/o-marcelo">o Marcelo</Link>
                   </Button>
