@@ -1,4 +1,4 @@
-import { lastProjects } from '@/lib'
+import { lastProjects } from '@lib/my-rojects'
 import { ProjectCard } from './_components'
 
 export function Projects() {

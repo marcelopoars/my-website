@@ -1,4 +1,4 @@
-import { Comments, DicaDoNerd, HeroHome, Projects } from '@/features/home'
+import { Comments, DicaDoNerd, HeroHome, Projects } from '@features/home'
 
 export default function Home() {
   return (

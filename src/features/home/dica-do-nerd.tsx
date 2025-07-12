@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import { dicaDoNerdVideos } from '@/lib'
-import { LogoDicaDoNerdVertical } from '../../shared/components/logos'
 import { IconExternalLink } from '@tabler/icons-react'
+import { dicaDoNerdVideos } from '@lib/dica-do-nerd-videos'
+import { LogoDicaDoNerdVertical } from '@shared/components/logos'
 
 export function DicaDoNerd() {
   return (

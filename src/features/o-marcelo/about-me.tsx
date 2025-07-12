@@ -1,5 +1,5 @@
+import { Share } from '@shared/components'
 import { Fragment } from 'react'
-import { Share } from '../../shared/components/share'
 
 const tools = [
   'React.js',

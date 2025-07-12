@@ -1,6 +1,6 @@
-import video1 from '@/assets/videos/curos-html5-3-css3-aula-10-semantica.png'
-import video2 from '@/assets/videos/curos-html5-3-css3-aula-13-projeto-pratico.png'
-import video3 from '@/assets/videos/dica-e-atalhos-para-visual-studio-code.png'
+import video1 from '@assets/videos/curos-html5-3-css3-aula-10-semantica.png'
+import video2 from '@assets/videos/curos-html5-3-css3-aula-13-projeto-pratico.png'
+import video3 from '@assets/videos/dica-e-atalhos-para-visual-studio-code.png'
 
 export const dicaDoNerdVideos = [
   {

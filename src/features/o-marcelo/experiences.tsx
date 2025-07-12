@@ -1,11 +1,11 @@
-import { experiences } from '@/lib'
+import { experiences } from '@lib/experiences'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselPrevious,
   CarouselNext,
-} from '@/shared'
+  CarouselPrevious,
+} from '@shared/components'
 
 export function Experiences() {
   return (

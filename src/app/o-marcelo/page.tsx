@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 
-import { AboutMe, Experiences, HeroMarcelo } from '@/features/o-marcelo'
+import { AboutMe, Experiences, HeroMarcelo } from '@features/o-marcelo'
 
 export const metadata: Metadata = {
   title: 'o Marcelo',
