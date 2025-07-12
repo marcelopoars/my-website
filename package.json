@@ -2,6 +2,18 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
+  "description": "Site pessoal e portfólio de Marcelo Pereira, desenvolvedor front-end sênior.",
+  "author": {
+    "name": "Marcelo Pereira",
+    "email": "marcelo.fatecpoa@gmail.com",
+    "url": "https://www.marcelopereira.com.br/"
+  },
+  "license": "MIT",
+  "homepage": "https://www.marcelopereira.com.br/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelopoars/my-website.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
