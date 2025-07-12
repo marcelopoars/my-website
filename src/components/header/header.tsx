@@ -57,8 +57,8 @@ export function Header() {
               <SheetHeader>
                 <SheetTitle className="text-left">Menu</SheetTitle>
               </SheetHeader>
-              <div className="flex flex-col justify-between py-8 space-y-3 h-full">
-                <div className="flex flex-col space-y-3 text-left">
+              <div className="flex flex-col justify-between py-8 gap-3 h-full">
+                <div className="flex flex-col gap-3 text-left">
                   <Button
                     asChild
                     variant={'link'}
