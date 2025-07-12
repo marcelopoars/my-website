@@ -50,7 +50,7 @@ export function ProjectCard({
       <header className="mb-4">
         <div className="relative">
           <Image
-            className="dark:opacity-85 dark:border dark:border-muted-foreground/30 group-hover:opacity-100 group-hover:shadow-[6px_6px_0px_0px_rgba(116,70,254,1)] group-hover:scale-105 transition"
+            className="dark:border dark:border-muted-foreground/30 group-hover:opacity-100 group-hover:shadow-[6px_6px_0px_0px_rgba(116,70,254,1)] group-hover:scale-105 transition"
             src={thumb}
             width={1366}
             height={768}
