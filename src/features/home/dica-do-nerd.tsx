@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { dicaDoNerdVideos } from '@/lib'
-import { LogoDicaDoNerdVertical } from '../logos'
+import { LogoDicaDoNerdVertical } from '../../shared/components/logos'
 import { IconExternalLink } from '@tabler/icons-react'
 
 export function DicaDoNerd() {

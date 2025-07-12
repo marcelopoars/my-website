@@ -1,4 +1,4 @@
-import { StyledComponentsIcon } from '@/components/icons'
+import { StyledComponentsIcon } from '@/shared'
 import {
   IconBrandCss3,
   IconBrandGatsby,

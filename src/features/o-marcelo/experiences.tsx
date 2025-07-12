@@ -3,9 +3,9 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
   CarouselPrevious,
-} from '../ui'
+  CarouselNext,
+} from '@/shared'
 
 export function Experiences() {
   return (

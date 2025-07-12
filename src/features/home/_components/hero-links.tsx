@@ -1,4 +1,4 @@
-import { Button, GithubIcon, LinkedinIcon } from '@/components'
+import { Button, GithubIcon, LinkedinIcon } from '@/shared'
 
 export function HeroLinks() {
   return (

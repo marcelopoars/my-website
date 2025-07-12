@@ -1,5 +1,5 @@
 // Common
-export * from './_theme'
+export * from './theme'
 export * from './cta-banner'
 export * from './footer'
 export * from './header'
@@ -8,7 +8,3 @@ export * from './share'
 
 // Shadcn UI
 export * from './ui'
-
-// Home
-export * from './home'
-export * from './o-marcelo'

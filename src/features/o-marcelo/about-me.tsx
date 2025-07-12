@@ -1,5 +1,5 @@
-import React from 'react'
-import { Share } from '../share'
+import { Fragment } from 'react'
+import { Share } from '../../shared/components/share'
 
 const tools = [
   'React.js',
@@ -55,9 +55,9 @@ export function AboutMe() {
               Profissional com muita experiência em desenvolvimento de
               interfaces web utilizando tecnologias como{' '}
               {tools.map((tool) => (
-                <React.Fragment key={tool}>
+                <Fragment key={tool}>
                   <span className="text-primary font-medium">{tool}</span>,{' '}
-                </React.Fragment>
+                </Fragment>
               ))}
               entre outras.
             </p>

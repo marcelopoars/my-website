@@ -5,7 +5,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '../ui'
+} from '@/shared/components/ui'
 import { CommentIcon } from './_components'
 
 export function Comments() {

@@ -1,5 +1,9 @@
 'use client'
 
+import { IconMenuDeep } from '@tabler/icons-react'
+import Link from 'next/link'
+import { LogoMarceloPereira } from '../logos'
+import { useState } from 'react'
 import {
   Button,
   Sheet,
@@ -7,12 +11,8 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-  ThemeToggle,
-} from '@/components'
-import { IconMenuDeep } from '@tabler/icons-react'
-import Link from 'next/link'
-import { LogoMarceloPereira } from '../logos'
-import { useState } from 'react'
+} from '../ui'
+import { ThemeToggle } from '../theme'
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
