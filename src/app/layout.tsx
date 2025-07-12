@@ -1,9 +1,9 @@
-import { ThemeProvider } from '@/components/_theme'
-import { cn } from '@/lib/utils'
+import { ThemeProvider } from '@shared/components/theme'
+import { cn } from '@lib/utils'
 import type { Metadata } from 'next'
 import { IBM_Plex_Mono as FontNono, Outfit as FontSans } from 'next/font/google'
 
-import { CtaBanner, Footer, Header } from '@/components'
+import { CtaBanner, Footer, Header } from '@shared/components'
 
 import '../styles/globals.css'
 

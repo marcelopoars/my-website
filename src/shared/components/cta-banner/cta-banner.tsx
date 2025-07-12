@@ -1,9 +1,9 @@
 import { ArrowRightIcon } from '@radix-ui/react-icons'
 import Image from 'next/image'
 
-import { Button } from '@/components/ui'
+import { Button } from '../ui'
 
-import laptopImage from '@/assets/laptop-image.png'
+import laptopImage from '@assets/laptop-image.png'
 
 export function CtaBanner() {
   return (

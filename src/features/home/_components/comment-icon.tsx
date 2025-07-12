@@ -1,4 +1,4 @@
-import { SvgIconProps } from '@/components/icons/interfaces'
+import { SvgIconProps } from '@shared/components/icons/interfaces'
 
 export function CommentIcon(props: SvgIconProps) {
   return (

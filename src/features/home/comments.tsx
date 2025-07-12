@@ -1,11 +1,11 @@
-import { comments } from '@/lib'
+import { comments } from '@lib/comments'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '../ui'
+} from '@ui/carousel'
 import { CommentIcon } from './_components'
 
 export function Comments() {

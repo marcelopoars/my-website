@@ -1,4 +1,4 @@
-import { SvgIconProps } from '@/components/icons/interfaces'
+import { SvgIconProps } from './interfaces'
 
 export const StyledComponentsIcon = (props: SvgIconProps) => {
   return (

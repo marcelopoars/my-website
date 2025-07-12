@@ -1,13 +1,13 @@
-import cpdThumb from '@/assets/projects/cpd-website.png'
-import elaineCostureiraThumb from '@/assets/projects/elaine-costureira-website.png'
-// import notesNlwExpertThumb from '@/assets/projects/notes-nlw-expert-app.png'
-import solarisThumb from '@/assets/projects/solaris-website.png'
-// import tailwindNextJsThumb from '@/assets/projects/tailwind-nextjs-app.png'
-import triploASeminovosThumb from '@/assets/projects/triploa-seminovos-website.png'
-// import githubBlogThumb from '@/assets/projects/github-blog.png'
-// import coffeeDeliveryThumb from '@/assets/projects/coffee-delivery.png'
-// import timerThumb from '@/assets/projects/timer.png'
-// import todoThumb from '@/assets/projects/todo.png'
+import cpdThumb from '@assets/projects/cpd-website.png'
+import elaineCostureiraThumb from '@assets/projects/elaine-costureira-website.png'
+// import notesNlwExpertThumb from '@assets/projects/notes-nlw-expert-app.png'
+import solarisThumb from '@assets/projects/solaris-website.png'
+// import tailwindNextJsThumb from '@assets/projects/tailwind-nextjs-app.png'
+import triploASeminovosThumb from '@assets/projects/triploa-seminovos-website.png'
+// import githubBlogThumb from '@assets/projects/github-blog.png'
+// import coffeeDeliveryThumb from '@assets/projects/coffee-delivery.png'
+// import timerThumb from '@assets/projects/timer.png'
+// import todoThumb from '@assets/projects/todo.png'
 
 export const lastProjects = [
   {

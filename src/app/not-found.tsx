@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 
-import { Button } from '@/components'
+import { Button } from '@shared/components/ui'
 
 export const metadata: Metadata = {
   title: 'Erro 404 | Marcelo Pereira | Desenvolvimento de Software',
