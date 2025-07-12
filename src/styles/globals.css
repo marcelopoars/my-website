@@ -91,3 +91,19 @@
   padding-inline: 2rem;
   max-width: 1440px; /* exemplo para 2xl */
 }
+
+@utility bg-radial-gradient-top-to-bottom {
+  background-image: radial-gradient(
+    42.54% 95.72% at 50% -45.58%,
+    rgba(116, 70, 254, 0.3) 0%,
+    rgba(116, 70, 254, 0) 100%
+  );
+}
+
+@utility bg-radial-gradient-bottom-to-top {
+  background-image: radial-gradient(
+    42.54% 95.72% at 50% calc(100% + 45.58%),
+    rgba(116, 70, 254, 0.3) 0%,
+    rgba(116, 70, 254, 0) 100%
+  );
+}
