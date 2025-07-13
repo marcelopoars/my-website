@@ -45,8 +45,8 @@ export function DicaDoNerd() {
       <div className="container pt-8 lg:pt-16">
         <ul className="grid gap-6 lg:grid-cols-3" role="list">
           {dicaDoNerdVideos.map(({ title, thumb, link }) => (
-            <article key={title}>
-              <li role="listitem">
+            <li key={title} role="listitem">
+              <article>
                 <a
                   className="group"
                   href={link}
@@ -69,8 +69,8 @@ export function DicaDoNerd() {
                     {title}
                   </h3>
                 </a>
-              </li>
-            </article>
+              </article>
+            </li>
           ))}
         </ul>
       </div>
