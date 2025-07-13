@@ -7,6 +7,8 @@ import { LogoDicaDoNerdVertical } from '@shared/components/logos'
 export function DicaDoNerd() {
   return (
     <section>
+      <h2 className="sr-only">Dica do Nerd</h2>
+
       <div className="container pt-16 lg:pt-28">
         <hr className="bg-foreground/30 h-px" />
 
