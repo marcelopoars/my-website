@@ -59,6 +59,7 @@ export function ProjectCard({
             height={768}
             quality={100}
             alt={`Screenshot do projeto ${name}`}
+            aria-describedby={`project-type-${name}`}
             placeholder="blur"
           />
 
@@ -79,10 +80,7 @@ export function ProjectCard({
         </div>
 
         <h3 className="text-xl mt-5 lg:text-2xl">{name}</h3>
-        <p
-          className="block text-muted-foreground"
-          aria-label={`Tipo de projeto: ${projectType}`}
-        >
+        <p className="block text-muted-foreground" id={`project-type-${name}`}>
           {projectType}
         </p>
       </header>
