@@ -1,19 +1,19 @@
-import cpdThumb from '@assets/projects/cpd-website.png'
-import elaineCostureiraThumb from '@assets/projects/elaine-costureira-website.png'
-// import notesNlwExpertThumb from '@assets/projects/notes-nlw-expert-app.png'
-import solarisThumb from '@assets/projects/solaris-website.png'
-// import tailwindNextJsThumb from '@assets/projects/tailwind-nextjs-app.png'
-import triploASeminovosThumb from '@assets/projects/triploa-seminovos-website.png'
-// import githubBlogThumb from '@assets/projects/github-blog.png'
-// import coffeeDeliveryThumb from '@assets/projects/coffee-delivery.png'
-// import timerThumb from '@assets/projects/timer.png'
-// import todoThumb from '@assets/projects/todo.png'
+import cpdScreenshot from '@assets/projects/cpd-website.png'
+import elaineCostureiraScreenshot from '@assets/projects/elaine-costureira-website.png'
+// import notesNlwExpertScreenshot from '@assets/projects/notes-nlw-expert-app.png'
+import solarisScreenshot from '@assets/projects/solaris-website.png'
+// import tailwindNextJsScreenshot from '@assets/projects/tailwind-nextjs-app.png'
+import triploASeminovosScreenshot from '@assets/projects/triploa-seminovos-website.png'
+// import githubBlogScreenshot from '@assets/projects/github-blog.png'
+// import coffeeDeliveryScreenshot from '@assets/projects/coffee-delivery.png'
+// import timerScreenshot from '@assets/projects/timer.png'
+// import todoScreenshot from '@assets/projects/todo.png'
 
 export const lastProjects = [
   {
     name: 'CPD',
     projectType: 'Website',
-    thumb: cpdThumb,
+    screenshot: cpdScreenshot,
     githubLink: '',
     previewLink: 'https://www.cpd.com.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
@@ -21,7 +21,7 @@ export const lastProjects = [
   {
     name: 'Solaris Energia Solar',
     projectType: 'Landing page',
-    thumb: solarisThumb,
+    screenshot: solarisScreenshot,
     githubLink: '',
     previewLink: 'https://www.solaris.eco.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
@@ -29,7 +29,7 @@ export const lastProjects = [
   // {
   //   name: 'Github Blog',
   //   projectType: 'Blog',
-  //   thumb: githubBlogThumb,
+  //   screenshot: githubBlogScreenshot,
   //   githubLink: 'https://github.com/marcelopoars/ignite-github-blog',
   //   previewLink: 'https://ignite-github-blog.marcelopereira.com.br/',
   //   stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents', 'githubapi'],
@@ -37,7 +37,7 @@ export const lastProjects = [
   // {
   //   name: 'Coffee Delivery',
   //   projectType: 'App',
-  //   thumb: coffeeDeliveryThumb,
+  //   screenshot: coffeeDeliveryScreenshot,
   //   githubLink: 'https://github.com/marcelopoars/ignite-coffee-delivery',
   //   previewLink: 'https://coffee-delivery.marcelopereira.com.br/',
   //   stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
@@ -45,7 +45,7 @@ export const lastProjects = [
   // {
   //   name: 'Timer',
   //   projectType: 'App',
-  //   thumb: timerThumb,
+  //   screenshot: timerScreenshot,
   //   githubLink: 'https://github.com/marcelopoars/ignite-timer',
   //   previewLink: 'https://ignite-timer.marcelopereira.com.br/',
   //   stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
@@ -53,7 +53,7 @@ export const lastProjects = [
   // {
   //   name: 'Tailwind NextJs App',
   //   projectType: 'App',
-  //   thumb: tailwindNextJsThumb,
+  //   screenshot: tailwindNextJsScreenshot,
   //   githubLink: 'https://github.com/marcelopoars/tailwind-nextjs',
   //   previewLink: 'https://tailwind-nextjs.marcelopereira.com.br',
   //   stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
@@ -61,7 +61,7 @@ export const lastProjects = [
   // {
   //   name: 'Notes',
   //   projectType: 'App',
-  //   thumb: notesNlwExpertThumb,
+  //   screenshot: notesNlwExpertScreenshot,
   //   githubLink: 'https://github.com/marcelopoars/nlw-experts-notes',
   //   previewLink: 'https://notes.marcelopereira.com.br',
   //   stack: ['reactjs', 'vitejs', 'typescript', 'tailwindcss'],
@@ -69,7 +69,7 @@ export const lastProjects = [
   // {
   //   name: 'Todo',
   //   projectType: 'App',
-  //   thumb: todoThumb,
+  //   screenshot: todoScreenshot,
   //   githubLink: 'https://github.com/marcelopoars/ignite-todo-list',
   //   previewLink: 'https://ignite-todo-list.marcelopereira.com.br/',
   //   stack: ['reactjs', 'vitejs', 'typescript', 'css3'],
@@ -77,7 +77,7 @@ export const lastProjects = [
   {
     name: 'Elaine | Costureira',
     projectType: 'Landing page',
-    thumb: elaineCostureiraThumb,
+    screenshot: elaineCostureiraScreenshot,
     githubLink: '',
     previewLink: 'https://www.elainecostureira.com.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
@@ -85,7 +85,7 @@ export const lastProjects = [
   {
     name: 'Triplo A Seminovos',
     projectType: 'Website',
-    thumb: triploASeminovosThumb,
+    screenshot: triploASeminovosScreenshot,
     githubLink: '',
     previewLink: 'https://triploaseminovos.com.br',
     stack: ['reactjs', 'gatsbyjs', 'javascript', 'styledcomponents', 'seo'],
