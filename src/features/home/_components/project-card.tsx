@@ -61,6 +61,7 @@ export function ProjectCard({
             alt={`Screenshot do projeto ${name}`}
             aria-describedby={`project-type-${name}`}
             placeholder="blur"
+            loading="lazy"
           />
 
           <ul className="absolute bottom-2 right-2 flex justify-end items-center gap-2">
