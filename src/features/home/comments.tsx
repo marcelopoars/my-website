@@ -11,6 +11,8 @@ import { CommentIcon } from './_components'
 export function Comments() {
   return (
     <section className="pt-10 md:pt-20 lg:pt-28">
+      <h2 className="sr-only">Depoimentos</h2>
+
       <div className="container text-center bg-radial-gradient-top-to-bottom">
         <hr className="bg-foreground/10 h-px" />
 
