@@ -1,45 +1,19 @@
-import { StyledComponentsIcon } from '@shared/components'
-import {
-  IconBrandCss3,
-  IconBrandGatsby,
-  IconBrandGithub,
-  IconBrandJavascript,
-  IconBrandNextjs,
-  IconBrandReact,
-  IconBrandTailwind,
-  IconBrandTypescript,
-  IconBrandVite,
-  IconWorldSearch,
-} from '@tabler/icons-react'
+import { stackInfoMap } from '@lib/stack-info'
+import { IconBrandGithub } from '@tabler/icons-react'
 import Image, { StaticImageData } from 'next/image'
-import { JSX } from 'react'
 
 interface ProjectCardProps {
   name: string
   projectType: string
-  thumb: StaticImageData
+  screenshot: StaticImageData
   githubLink: string
   previewLink: string
   stack: string[]
 }
 
-const stackIconsMap: Record<string, JSX.Element> = {
-  css3: <IconBrandCss3 />,
-  gatsbyjs: <IconBrandGatsby />,
-  githubapi: <IconBrandGithub />,
-  javascript: <IconBrandJavascript />,
-  nextjs: <IconBrandNextjs />,
-  reactjs: <IconBrandReact />,
-  seo: <IconWorldSearch />,
-  styledcomponents: <StyledComponentsIcon />,
-  tailwindcss: <IconBrandTailwind />,
-  typescript: <IconBrandTypescript />,
-  vitejs: <IconBrandVite />,
-}
-
 export function ProjectCard({
   name,
-  thumb,
+  screenshot,
   projectType,
   previewLink,
   githubLink,
@@ -51,28 +25,36 @@ export function ProjectCard({
         <div className="relative">
           <Image
             className="dark:border dark:border-muted-foreground/30 group-hover:opacity-100 group-hover:shadow-[6px_6px_0px_0px_rgba(116,70,254,1)] group-hover:scale-105 transition"
-            src={thumb}
+            src={screenshot}
             width={1366}
             height={768}
             quality={100}
-            alt="Screenshot da aplicação"
+            alt={`Screenshot do projeto ${name}`}
+            aria-describedby={`project-type-${name}`}
             placeholder="blur"
+            loading="lazy"
           />
 
           <ul className="absolute bottom-2 right-2 flex justify-end items-center gap-2">
-            {stack.map((item) => (
-              <li
-                key={item}
-                className="size-8 flex justify-center items-center bg-white text-[#1E1E1E] rounded-full"
-              >
-                {stackIconsMap[item] || null}
-              </li>
-            ))}
+            {stack
+              .filter((item) => !!stackInfoMap[item])
+              .map((item) => (
+                <li
+                  key={item}
+                  className="size-8 flex justify-center items-center bg-white text-[#1E1E1E] rounded-full"
+                  aria-label={`Tecnologia ${stackInfoMap[item].label}`}
+                  title={stackInfoMap[item].label}
+                >
+                  {stackInfoMap[item].icon}
+                </li>
+              ))}
           </ul>
         </div>
 
         <h3 className="text-xl mt-5 lg:text-2xl">{name}</h3>
-        <span className="block text-muted-foreground">{projectType}</span>
+        <p className="block text-muted-foreground" id={`project-type-${name}`}>
+          {projectType}
+        </p>
       </header>
 
       <footer>

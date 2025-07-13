@@ -1,8 +1,16 @@
+import { StaticImageData } from 'next/image'
+
 import video1 from '@assets/videos/curos-html5-3-css3-aula-10-semantica.png'
 import video2 from '@assets/videos/curos-html5-3-css3-aula-13-projeto-pratico.png'
 import video3 from '@assets/videos/dica-e-atalhos-para-visual-studio-code.png'
 
-export const dicaDoNerdVideos = [
+interface DicaDoNerdVideo {
+  title: string
+  thumb: StaticImageData
+  link: string
+}
+
+export const dicaDoNerdVideos: DicaDoNerdVideo[] = [
   {
     title:
       'Curso Html5 e Css3 - aula 10: Semântica, Tags Header, Footer, Nav, Section, Main, Div',

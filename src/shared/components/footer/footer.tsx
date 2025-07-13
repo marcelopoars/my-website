@@ -9,7 +9,7 @@ export function Footer() {
 
         <div className="grid grid-cols-2 gap-10 lg:grid-cols-3 lg:gap-16">
           <div className="space-y-6">
-            <h4 className="text-xl">Sobre</h4>
+            <h3 className="text-xl">Sobre</h3>
             <ul className="space-y-3 text-muted-foreground">
               <li>
                 <Link
@@ -41,7 +41,7 @@ export function Footer() {
           </div>
 
           <div className="space-y-6">
-            <h4 className="text-xl">Me encontre</h4>
+            <h3 className="text-xl">Me encontre</h3>
             <ul className="space-y-3 text-muted-foreground">
               <li>
                 <a

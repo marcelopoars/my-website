@@ -1,5 +1,18 @@
-import { Button } from '@ui/button'
 import { GithubIcon, LinkedinIcon } from '@shared/components/icons'
+import { Button } from '@ui/button'
+
+const socialLinks = [
+  {
+    href: 'https://github.com/marcelopoars/',
+    label: 'GitHub de Marcelo Pereira',
+    icon: <GithubIcon />,
+  },
+  {
+    href: 'https://www.linkedin.com/in/marcelopoars/',
+    label: 'LinkedIn de Marcelo Pereira',
+    icon: <LinkedinIcon />,
+  },
+]
 
 export function HeroLinks() {
   return (
@@ -15,25 +28,19 @@ export function HeroLinks() {
       </Button>
 
       <div className="flex items-center gap-2">
-        <Button variant="outline" size="icon" asChild>
-          <a
-            href="https://github.com/marcelopoars/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GithubIcon />
-          </a>
-        </Button>
-
-        <Button variant="outline" size="icon" asChild>
-          <a
-            href="https://www.linkedin.com/in/marcelopoars/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <LinkedinIcon />
-          </a>
-        </Button>
+        {socialLinks.map(({ href, icon, label }) => (
+          <Button key={href} variant="outline" size="icon" asChild>
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+              title={label}
+            >
+              {icon}
+            </a>
+          </Button>
+        ))}
       </div>
     </aside>
   )
