@@ -50,7 +50,7 @@ export function Header() {
         {/* MENU MOBILE */}
         <nav className="md:hidden flex ml-3">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger className="p-2">
+            <SheetTrigger className="p-2" aria-label="Abrir menu de navegação">
               <IconMenuDeep />
             </SheetTrigger>
             <SheetContent>
