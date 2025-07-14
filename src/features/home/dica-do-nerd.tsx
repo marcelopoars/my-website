@@ -45,7 +45,11 @@ export function DicaDoNerd() {
       </div>
 
       <div className="container pt-8 lg:pt-16">
-        <ul className="grid gap-6 lg:grid-cols-3" role="list">
+        <ul
+          className="grid gap-6 lg:grid-cols-3"
+          role="list"
+          aria-roledescription="galeria de vídeos"
+        >
           {dicaDoNerdVideos.map(({ title, thumb, link }) => (
             <li key={title} role="listitem">
               <article>
