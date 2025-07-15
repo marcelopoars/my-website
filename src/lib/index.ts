@@ -1,6 +1,7 @@
 export * from './comments'
 export * from './dica-do-nerd-videos'
 export * from './experiences'
+export * from './footer'
 export * from './my-rojects'
 export * from './stack-info'
 export * from './utils'
