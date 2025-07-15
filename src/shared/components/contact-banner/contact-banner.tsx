@@ -12,7 +12,7 @@ export function ContactBanner() {
       aria-labelledby="contact-banner-heading"
     >
       <div className="relative container py-10 pb-44 md:py-10 lg:py-20">
-        <div>
+        <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <h2
             className="text-white text-4xl md:text-4xl lg:text-6xl xl:text-7xl mb-8"
             id="contact-banner-heading"
@@ -25,6 +25,7 @@ export function ContactBanner() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Fale comigo no WhatsApp"
+              className="mx-auto md:mx-0"
             >
               Fale comigo no WhatsApp <ArrowRightIcon className="size-6" />
             </a>
