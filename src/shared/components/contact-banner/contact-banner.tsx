@@ -32,7 +32,7 @@ export function ContactBanner() {
         </div>
 
         <Image
-          className="absolute  w-[340px] -bottom-16 right-[calc((100vw-360px)/2)] md:w-[420px] md:-bottom-20 md:right-0 lg:w-[574px] lg:-bottom-24 xl:w-[660px] xl:-bottom-32 xl:-right-5"
+          className="absolute left-1/2 translate-x-[-50%] w-[340px] -bottom-16 md:w-[420px] md:-bottom-20 md:right-0 md:left-auto md:translate-x-0 lg:w-[574px] lg:-bottom-24 xl:w-[660px] xl:-bottom-32 xl:-right-5"
           src={laptopImage}
           width={678}
           height={449}
