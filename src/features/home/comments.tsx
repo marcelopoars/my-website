@@ -10,25 +10,36 @@ import { CommentIcon } from './_components'
 
 export function Comments() {
   return (
-    <section className="pt-10 md:pt-20 lg:pt-28">
-      <h2 className="sr-only">Depoimentos</h2>
+    <section
+      className="pt-10 md:pt-20 lg:pt-28"
+      aria-labelledby="section-testimonials"
+    >
+      <h2 id="section-testimonials" className="sr-only">
+        Depoimentos de clientes
+      </h2>
 
       <div className="container text-center bg-radial-gradient-top-to-bottom">
         <hr className="bg-foreground/10 h-px" />
 
-        <Carousel className="pt-10 lg:pt-20">
+        <Carousel
+          className="pt-10 lg:pt-20"
+          aria-label="Depoimentos de clientes"
+          aria-roledescription="carrossel"
+        >
           <CarouselContent>
             {comments.map(({ client, content, role }) => (
               <CarouselItem key={client} className="flex flex-col items-center">
-                <CommentIcon />
-                <p className="select-none text-balance mt-10 mb-4 lg:max-w-[880px] lg:text-2xl lg:leading-normal">
-                  {content}
-                </p>
-                <span className="font-mono font-medium text-muted-foreground mb-10">
-                  <span className="block text-primary lg:inline">{client}</span>{' '}
+                <CommentIcon aria-hidden="true" />
+                <blockquote className="select-none text-balance mt-10 mb-4 lg:max-w-[880px] lg:text-2xl lg:leading-normal">
+                  <p>{content}</p>
+                </blockquote>
+                <footer className="text-base font-mono font-medium text-muted-foreground mb-10">
+                  <cite className="not-italic block text-primary lg:inline">
+                    {client}
+                  </cite>{' '}
                   <span className="hidden lg:inline">|</span> {role}
-                </span>
-                <CommentIcon className="rotate-180" />
+                </footer>
+                <CommentIcon className="rotate-180" aria-hidden="true" />
               </CarouselItem>
             ))}
           </CarouselContent>

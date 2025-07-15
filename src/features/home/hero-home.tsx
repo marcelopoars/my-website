@@ -2,10 +2,7 @@ import { HeroLinks } from './_components'
 
 export function HeroHome() {
   return (
-    <section
-      className="pt-14 lg:pt-28"
-      aria-label="Seção principal com apresentação de Marcelo Pereira"
-    >
+    <section className="pt-14 lg:pt-28">
       <div className="container">
         <h1 className="block text-muted-foreground lg:text-3xl font-mono font-medium mb-2">
           desenvolvimento de software

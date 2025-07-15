@@ -1,4 +1,10 @@
-export const comments = [
+export type Comment = {
+  content: string
+  client: string
+  role: string
+}
+
+export const comments: Comment[] = [
   {
     content:
       'A dedicação e o profissionalismo do Marcelo são notáveis desde o primeiro contato. Ele não apenas entendeu nossas necessidades, mas também sugeriu soluções diferentes para a funcionalidade e manutenção do nosso site. Ficamos muito contentes com o resultado. Obrigada pelo excelente trabalho!',

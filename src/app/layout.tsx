@@ -1,9 +1,9 @@
-import { ThemeProvider } from '@shared/components/theme'
 import { cn } from '@lib/utils'
+import { ThemeProvider } from '@shared/components/theme'
 import type { Metadata } from 'next'
 import { IBM_Plex_Mono as FontNono, Outfit as FontSans } from 'next/font/google'
 
-import { CtaBanner, Footer, Header } from '@shared/components'
+import { ContactBanner, Footer, Header } from '@shared/components'
 
 import '../styles/globals.css'
 
@@ -64,7 +64,7 @@ export default function RootLayout({
           <main className="flex-1">
             {children}
 
-            <CtaBanner />
+            <ContactBanner />
           </main>
           <Footer />
         </ThemeProvider>
