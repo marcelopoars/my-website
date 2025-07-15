@@ -5,12 +5,18 @@ import { Button } from '../ui'
 
 import laptopImage from '@assets/laptop-image.png'
 
-export function CtaBanner() {
+export function ContactBanner() {
   return (
-    <section className="bg-primary mt-10 mb-10 md:mt-14 md:mb-20 xl:mt-24 xl:mb-28">
+    <section
+      className="bg-primary mt-10 mb-10 md:mt-14 md:mb-20 xl:mt-24 xl:mb-28"
+      aria-labelledby="contact-banner-heading"
+    >
       <div className="relative container py-10 pb-44 md:py-10 lg:py-20">
         <div>
-          <h2 className="text-white text-4xl md:text-4xl lg:text-6xl xl:text-7xl mb-8">
+          <h2
+            className="text-white text-4xl md:text-4xl lg:text-6xl xl:text-7xl mb-8"
+            id="contact-banner-heading"
+          >
             <span className="block">Vamos dar o play</span> no seu projeto?
           </h2>
           <Button variant={'black'} asChild>
@@ -18,8 +24,9 @@ export function CtaBanner() {
               href="https://api.whatsapp.com/send?phone=5551981838118&text=Ol%C3%A1!"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Fale comigo no WhatsApp"
             >
-              Entre em contato <ArrowRightIcon className="size-6" />
+              Fale comigo no WhatsApp <ArrowRightIcon className="size-6" />
             </a>
           </Button>
         </div>
@@ -29,8 +36,9 @@ export function CtaBanner() {
           src={laptopImage}
           width={678}
           height={449}
-          alt="Imagem de um notebook"
           quality={100}
+          alt=""
+          aria-hidden="true"
         />
       </div>
     </section>
