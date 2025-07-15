@@ -12,7 +12,7 @@ export function Footer() {
         <LogoMarceloPereira />
 
         <div className="grid grid-cols-2 gap-10 lg:grid-cols-3 lg:gap-16">
-          <div className="space-y-6" aria-labelledby="footer-sobre-heading">
+          <nav className="space-y-6" aria-labelledby="footer-sobre-heading">
             <h3 id="footer-sobre-heading" className="text-xl">
               Sobre
             </h3>
@@ -45,9 +45,9 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
 
-          <div
+          <nav
             className="space-y-6"
             aria-labelledby="footer-me-encontre-heading"
           >
@@ -89,9 +89,9 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
 
-          <div
+          <nav
             className="space-y-6"
             aria-labelledby="footer-dica-do-nerd-heading"
           >
@@ -134,7 +134,7 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
 
