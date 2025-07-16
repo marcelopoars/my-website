@@ -12,6 +12,10 @@
 🔗 **Acesse em:** [www.marcelopereira.com.br](https://www.marcelopereira.com.br)
 📁 **Repositório:** [github.com/marcelopoars/my-website](https://github.com/marcelopoars/my-website)
 
+## Sobre o projeto
+
+Site pessoal e portfólio desenvolvido para apresentar projetos, habilidades e experiências como desenvolvedor front-end sênior. O foco está em performance, acessibilidade, arquitetura escalável e código limpo.
+
 ## ⚙️ Tecnologias utilizadas
 
 - **Next.js 15 (App Router)** — SSR, SSG, otimizações e DX moderna
@@ -66,31 +70,6 @@ src/
 
 > 🎯 Essa abordagem torna o projeto mais organizado, fácil de entender e pronto para crescer.
 
-## 🔧 Requisitos
-
-- Node.js 18+
-- NPM 9+
-
-## 💻 Como rodar localmente
-
-```bash
-git clone https://github.com/marcelopoars/my-website.git
-
-cd my-website
-
-# Instale as dependências
-npm install
-
-# Rode o ambiente de desenvolvimento
-npm run dev
-```
-
-Para verificar a qualidade do projeto:
-
-```bash
-npm run check
-```
-
 ## ✨ Diferenciais técnicos
 
 - ♿️ Acessibilidade (ARIA, teclado, contraste)
@@ -101,14 +80,40 @@ npm run check
 - 🧠 Arquitetura baseada em features
 - 🧪 Scripts de verificação com ESLint, Prettier e TypeScript
 
+## 💻 Como rodar localmente
+
+```bash
+git clone https://github.com/marcelopoars/my-website.git
+cd my-website
+npm install
+npm run dev
+```
+
+Para verificar a qualidade do projeto:
+
+```bash
+npm run check
+```
+
 ## 🧪 Qualidade de código
 
-O projeto adota um pipeline de verificação com:
+Este projeto adota um pipeline de verificação completo para garantir a qualidade e consistência do código:
 
-- **TypeScript**: verificação de tipos
-- **ESLint**: boas práticas e padronização
-- **Prettier**: formatação automática
-- **`check`**: comando unificado para garantir a qualidade do código
+- ✅ **TypeScript** – verificação de tipos
+- ✅ **ESLint** – análise de boas práticas e padronização
+- ✅ **Prettier** – formatação automática
+
+### 📜 Scripts disponíveis
+
+```bash
+npm run lint         # Analisa o código com ESLint
+npm run type-check   # Verifica os tipos com TypeScript
+npm run format       # Formata o código com Prettier
+npm run format:check # Verifica se o código está formatado
+npm run check        # Executa type-check, lint e format:check juntos
+```
+
+💡 O comando npm run check é ideal para CI/CD ou pré-pull requests. Ele garante que o código esteja padronizado, sem erros de lint e com os tipos corretos antes de qualquer deploy.
 
 ## 🚧 Roadmap
 
@@ -136,13 +141,8 @@ Este projeto está licenciado sob a licença [MIT](LICENSE).
 
 ## 👨‍💻 Sobre mim
 
-Desenvolvedor front-end sênior com mais de 15 anos de experiência em web.
-Especialista em React, Next.js, TypeScript e boas práticas de arquitetura de software.
-Apaixonado por interfaces acessíveis, código limpo e performance.
+Desenvolvedor front-end sênior com mais de 15 anos de experiência em aplicações web, especializado em React, Next.js, TypeScript, Tailwind CSS, Shadcn UI e Node.js. Atua com foco em arquitetura escalável, acessibilidade, performance e código limpo, além de liderar tecnicamente projetos e equipes, participando ativamente da definição de soluções, revisão de código e tomada de decisões estratégicas.
 
-**Stack atual:** React, Next.js, TypeScript, Tailwind CSS, Shadcn UI, Node.js
-
-📫 **Contato**: [marcelo.fatecpoa@gmail.com](mailto:marcelo.fatecpoa@gmail.com)
-🌐 **Site**: [www.marcelopereira.com.br](https://www.marcelopereira.com.br)
-
----
+- 🌐 **Site**: [www.marcelopereira.com.br](https://www.marcelopereira.com.br)
+- 💼 **LinkedIn**: [linkedin.com/in/marcelopoars](https://www.linkedin.com/in/marcelopoars/)
+- 📫 **Email**: [marcelo.fatecpoa@gmail.com](mailto:marcelo.fatecpoa@gmail.com)
