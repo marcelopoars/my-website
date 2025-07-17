@@ -5,6 +5,24 @@ import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { Button } from '../ui'
 
+const themes = [
+  {
+    key: 'light',
+    label: 'Tema claro',
+    icon: SunIcon,
+  },
+  {
+    key: 'dark',
+    label: 'Tema escuro',
+    icon: MoonIcon,
+  },
+  {
+    key: 'system',
+    label: 'Tema do sistema',
+    icon: DesktopIcon,
+  },
+]
+
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme()
   const [isMounted, setIsMounted] = useState(false)
@@ -21,39 +39,21 @@ export function ThemeToggle() {
       role="group"
       aria-label="Alternar tema"
     >
-      <Button
-        variant={theme === 'light' ? 'default' : 'ghost'}
-        size="icon"
-        onClick={() => setTheme('light')}
-        className="h-7 w-7 transition-all duration-200"
-        title="Tema claro"
-        aria-label="Tema claro"
-        disabled={!isMounted}
-      >
-        <SunIcon className="h-4 w-4" />
-      </Button>
-      <Button
-        variant={theme === 'dark' ? 'default' : 'ghost'}
-        size="icon"
-        onClick={() => setTheme('dark')}
-        className="h-7 w-7 transition-all duration-200"
-        title="Tema escuro"
-        aria-label="Tema escuro"
-        disabled={!isMounted}
-      >
-        <MoonIcon className="h-4 w-4" />
-      </Button>
-      <Button
-        variant={theme === 'system' ? 'default' : 'ghost'}
-        size="icon"
-        onClick={() => setTheme('system')}
-        className="h-7 w-7 transition-all duration-200"
-        title="Tema do sistema"
-        aria-label="Tema do sistema"
-        disabled={!isMounted}
-      >
-        <DesktopIcon className="h-4 w-4" />
-      </Button>
+      {themes.map(({ key, label, icon: Icon }) => (
+        <Button
+          key={key}
+          className="size-7 transition-all duration-200"
+          variant={theme === key ? 'default' : 'ghost'}
+          size="icon"
+          onClick={() => setTheme(key)}
+          title={label}
+          aria-label={label}
+          aria-pressed={theme === key}
+          disabled={!isMounted}
+        >
+          <Icon className="size-4" />
+        </Button>
+      ))}
     </div>
   )
 }
