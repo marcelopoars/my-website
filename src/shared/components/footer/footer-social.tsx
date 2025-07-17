@@ -7,9 +7,7 @@ export function FooterSocial() {
       <h3 id="footer-me-encontre-heading" className="text-xl">
         Me encontre
       </h3>
-      <ul className="flex flex-col gap-y-3 text-muted-foreground">
-        <FooterLinksList items={footerSocialLinks} />
-      </ul>
+      <FooterLinksList items={footerSocialLinks} />
     </nav>
   )
 }

@@ -9,9 +9,7 @@ export function FooterDicaDoNerd() {
         Dica do Nerd
       </h3>
       <LogoDicaDoNerdHorizontal />
-      <ul className="flex flex-col gap-y-3 text-muted-foreground">
-        <FooterLinksList items={footerDicaDoNerdLinks} />
-      </ul>
+      <FooterLinksList items={footerDicaDoNerdLinks} />
     </nav>
   )
 }
