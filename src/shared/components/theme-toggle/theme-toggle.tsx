@@ -31,29 +31,30 @@ export function ThemeToggle() {
     setIsMounted(true)
   }, [])
 
-  if (!isMounted) return null
-
   return (
     <div
       className="w-auto flex items-center justify-center rounded-md border border-input bg-background p-1"
       role="group"
       aria-label="Alternar tema"
     >
-      {themes.map(({ key, label, icon: Icon }) => (
-        <Button
-          key={key}
-          className="size-7 transition-all duration-200"
-          variant={theme === key ? 'default' : 'ghost'}
-          size="icon"
-          onClick={() => setTheme(key)}
-          title={label}
-          aria-label={label}
-          aria-pressed={theme === key}
-          disabled={!isMounted}
-        >
-          <Icon className="size-4" />
-        </Button>
-      ))}
+      {themes.map(({ key, label, icon: Icon }) => {
+        const isActive = isMounted && theme === key
+        return (
+          <Button
+            key={key}
+            className="size-7 transition-all duration-200"
+            variant={isActive ? 'default' : 'ghost'}
+            size="icon"
+            onClick={() => setTheme(key)}
+            title={label}
+            aria-label={label}
+            aria-pressed={isActive}
+            disabled={!isMounted}
+          >
+            <Icon className="size-4" />
+          </Button>
+        )
+      })}
     </div>
   )
 }
