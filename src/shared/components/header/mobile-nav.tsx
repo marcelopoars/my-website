@@ -3,7 +3,7 @@
 import { IconMenuDeep } from '@tabler/icons-react'
 import Link from 'next/link'
 import { useState } from 'react'
-import { ThemeToggle } from '../theme'
+import { ThemeToggle } from '../theme-toggle'
 import {
   Button,
   Sheet,
@@ -47,12 +47,7 @@ export function MobileNav({ navLinks }: MobileNavProps) {
               ))}
             </div>
             <div className="flex flex-col gap-6 mt-4">
-              <div className="flex items-center gap-2">
-                <ThemeToggle />
-                <span className="text-sm text-muted-foreground">
-                  Alternar tema
-                </span>
-              </div>
+              <ThemeToggle />
               <Button variant="secondary" className="w-full" asChild>
                 <a
                   href="https://api.whatsapp.com/send?phone=5551981838118&text=Ol%C3%A1!"
