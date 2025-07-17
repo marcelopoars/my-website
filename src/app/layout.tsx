@@ -1,9 +1,8 @@
 import { cn } from '@lib/utils'
-import { ThemeProvider } from '@shared/components/theme'
+import { ContactBanner, Footer, Header } from '@shared/components'
+import { ThemeProvider } from '@shared/providers'
 import type { Metadata } from 'next'
 import { IBM_Plex_Mono as FontNono, Outfit as FontSans } from 'next/font/google'
-
-import { ContactBanner, Footer, Header } from '@shared/components'
 
 import '../styles/globals.css'
 
