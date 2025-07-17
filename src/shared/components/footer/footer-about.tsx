@@ -7,9 +7,7 @@ export function FooterAbout() {
       <h3 id="footer-sobre-heading" className="text-xl">
         Sobre
       </h3>
-      <ul className="flex flex-col gap-y-3 text-muted-foreground">
-        <FooterLinksList items={footerAboutLinks} />
-      </ul>
+      <FooterLinksList items={footerAboutLinks} />
     </nav>
   )
 }
