@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ThemeToggle } from '../theme'
+import { ThemeToggle } from '../theme-toggle'
 import { Button } from '../ui'
 
 import type { NavLink } from './nav-link.types'

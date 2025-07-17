@@ -3,7 +3,7 @@
 import { IconMenuDeep } from '@tabler/icons-react'
 import Link from 'next/link'
 import { useState } from 'react'
-import { ThemeToggle } from '../theme'
+import { ThemeToggle } from '../theme-toggle'
 import {
   Button,
   Sheet,
