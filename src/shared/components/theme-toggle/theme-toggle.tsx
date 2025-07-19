@@ -5,24 +5,26 @@ import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { Button } from '../ui'
 
-export function ThemeToggle() {
+type ThemeToggleProps = {
+  showLabelOnMobile?: boolean
+}
+
+export function ThemeToggle({ showLabelOnMobile = false }: ThemeToggleProps) {
   const { theme, setTheme } = useTheme()
   const [isMounted, setIsMounted] = useState(false)
 
-  useEffect(() => {
-    setIsMounted(true)
-  }, [])
+  useEffect(() => setIsMounted(true), [])
 
-  // Falback para evitar layout shift
+  const buttonProps = {
+    className: 'transition-all duration-200',
+    variant: 'ghost' as const,
+    size: showLabelOnMobile ? ('default' as const) : ('icon' as const),
+    'aria-label': 'Alternar tema',
+  }
+
   if (!isMounted) {
     return (
-      <Button
-        className=" transition-all duration-200"
-        variant="default"
-        size="icon"
-        disabled
-        aria-label="Alternar tema"
-      >
+      <Button {...buttonProps} disabled>
         <SunIcon className="size-5" />
       </Button>
     )
@@ -34,15 +36,17 @@ export function ThemeToggle() {
 
   return (
     <Button
-      className=" transition-all duration-200"
-      variant="ghost"
-      size="icon"
+      {...buttonProps}
       onClick={() => setTheme(nextTheme)}
       title={label}
-      aria-label={label}
       aria-pressed={true}
     >
       <ActiveIcon className="size-5" />
+      {showLabelOnMobile && (
+        <span className="text-muted-foreground ml-2 md:hidden">
+          Alternar tema
+        </span>
+      )}
     </Button>
   )
 }

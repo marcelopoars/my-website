@@ -26,7 +26,7 @@ export function MobileNav({ navLinks }: MobileNavProps) {
     <nav className="flex md:hidden ml-3">
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <SheetTrigger className="p-2" aria-label="Abrir menu de navegação">
-          <IconMenuDeep />
+          <IconMenuDeep size={24} className="-mr-3" />
         </SheetTrigger>
         <SheetContent>
           <SheetHeader>
@@ -46,8 +46,8 @@ export function MobileNav({ navLinks }: MobileNavProps) {
                 </Button>
               ))}
             </div>
-            <div className="flex flex-col gap-6 mt-4">
-              <ThemeToggle />
+            <div className="flex flex-col gap-6 mt-4 items-center">
+              <ThemeToggle showLabelOnMobile />
               <Button variant="secondary" className="w-full" asChild>
                 <a
                   href="https://api.whatsapp.com/send?phone=5551981838118&text=Ol%C3%A1!"
