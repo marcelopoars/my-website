@@ -13,24 +13,18 @@ export function ThemeToggle() {
     setIsMounted(true)
   }, [])
 
-  // Enquanto não está montado, mostra o ícone do Sol e desabilita o botão
+  // Falback para evitar layout shift
   if (!isMounted) {
     return (
-      <div
-        className="w-auto flex items-center justify-center"
-        role="group"
+      <Button
+        className=" transition-all duration-200"
+        variant="default"
+        size="icon"
+        disabled
         aria-label="Alternar tema"
       >
-        <Button
-          className="size-7 transition-all duration-200"
-          variant="default"
-          size="icon"
-          disabled
-          aria-label="Alternar tema"
-        >
-          <SunIcon className="size-4" />
-        </Button>
-      </div>
+        <SunIcon className="size-5" />
+      </Button>
     )
   }
 
@@ -39,22 +33,16 @@ export function ThemeToggle() {
   const label = theme === 'light' ? 'Tema claro' : 'Tema escuro'
 
   return (
-    <div
-      className="w-auto flex items-center justify-center"
-      role="group"
-      aria-label="Alternar tema"
+    <Button
+      className=" transition-all duration-200"
+      variant="ghost"
+      size="icon"
+      onClick={() => setTheme(nextTheme)}
+      title={label}
+      aria-label={label}
+      aria-pressed={true}
     >
-      <Button
-        className="size-7 transition-all duration-200"
-        variant="default"
-        size="icon"
-        onClick={() => setTheme(nextTheme)}
-        title={label}
-        aria-label={label}
-        aria-pressed={true}
-      >
-        <ActiveIcon className="size-4" />
-      </Button>
-    </div>
+      <ActiveIcon className="size-5" />
+    </Button>
   )
 }
