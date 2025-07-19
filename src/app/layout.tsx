@@ -56,7 +56,7 @@ export default function RootLayout({
       <body className={cn(fontSans.variable, fontNono.variable)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme={'system' as Theme}
+          defaultTheme={'dark' as Theme}
           disableTransitionOnChange
         >
           <Header />

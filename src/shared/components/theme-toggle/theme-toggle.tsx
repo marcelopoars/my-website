@@ -31,8 +31,8 @@ export function ThemeToggle({ showLabelOnMobile = false }: ThemeToggleProps) {
   }
 
   const nextTheme = theme === 'light' ? 'dark' : 'light'
-  const ActiveIcon = theme === 'light' ? SunIcon : MoonIcon
-  const label = theme === 'light' ? 'Tema claro' : 'Tema escuro'
+  const ActiveIcon = theme === 'light' ? MoonIcon : SunIcon
+  const label = theme === 'light' ? 'Tema escuro' : 'Tema claro'
 
   return (
     <Button
