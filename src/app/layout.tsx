@@ -1,6 +1,6 @@
 import { cn } from '@lib/utils'
 import { ContactBanner, Footer, Header } from '@shared/components'
-import { ThemeProvider } from '@shared/providers'
+import { Theme, ThemeProvider } from '@shared/providers'
 import type { Metadata } from 'next'
 import { IBM_Plex_Mono as FontNono, Outfit as FontSans } from 'next/font/google'
 
@@ -56,7 +56,7 @@ export default function RootLayout({
       <body className={cn(fontSans.variable, fontNono.variable)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme={'dark' as Theme}
           disableTransitionOnChange
         >
           <Header />

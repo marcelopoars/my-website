@@ -1,60 +1,52 @@
 'use client'
 
-import { DesktopIcon, MoonIcon, SunIcon } from '@radix-ui/react-icons'
+import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { Button } from '../ui'
 
-const themes = [
-  {
-    key: 'light',
-    label: 'Tema claro',
-    icon: SunIcon,
-  },
-  {
-    key: 'dark',
-    label: 'Tema escuro',
-    icon: MoonIcon,
-  },
-  {
-    key: 'system',
-    label: 'Tema do sistema',
-    icon: DesktopIcon,
-  },
-]
+type ThemeToggleProps = {
+  showLabelOnMobile?: boolean
+}
 
-export function ThemeToggle() {
+export function ThemeToggle({ showLabelOnMobile = false }: ThemeToggleProps) {
   const { theme, setTheme } = useTheme()
   const [isMounted, setIsMounted] = useState(false)
 
-  useEffect(() => {
-    setIsMounted(true)
-  }, [])
+  useEffect(() => setIsMounted(true), [])
+
+  const buttonProps = {
+    className: 'transition-all duration-200',
+    variant: 'ghost' as const,
+    size: showLabelOnMobile ? ('default' as const) : ('icon' as const),
+    'aria-label': 'Alternar tema',
+  }
+
+  if (!isMounted) {
+    return (
+      <Button {...buttonProps} disabled>
+        <SunIcon className="size-5" />
+      </Button>
+    )
+  }
+
+  const nextTheme = theme === 'light' ? 'dark' : 'light'
+  const ActiveIcon = theme === 'light' ? MoonIcon : SunIcon
+  const label = theme === 'light' ? 'Tema escuro' : 'Tema claro'
 
   return (
-    <div
-      className="w-auto flex items-center justify-center rounded-md border border-input bg-background p-1"
-      role="group"
-      aria-label="Alternar tema"
+    <Button
+      {...buttonProps}
+      onClick={() => setTheme(nextTheme)}
+      title={label}
+      aria-pressed={true}
     >
-      {themes.map(({ key, label, icon: Icon }) => {
-        const isActive = isMounted && theme === key
-        return (
-          <Button
-            key={key}
-            className="size-7 transition-all duration-200"
-            variant={isActive ? 'default' : 'ghost'}
-            size="icon"
-            onClick={() => setTheme(key)}
-            title={label}
-            aria-label={label}
-            aria-pressed={isActive}
-            disabled={!isMounted}
-          >
-            <Icon className="size-4" />
-          </Button>
-        )
-      })}
-    </div>
+      <ActiveIcon className="size-5" />
+      {showLabelOnMobile && (
+        <span className="text-muted-foreground ml-2 md:hidden">
+          Alternar tema
+        </span>
+      )}
+    </Button>
   )
 }
