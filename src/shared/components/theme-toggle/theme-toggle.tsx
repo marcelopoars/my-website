@@ -1,6 +1,6 @@
 'use client'
 
-import { DesktopIcon, MoonIcon, SunIcon } from '@radix-ui/react-icons'
+import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { Button } from '../ui'
@@ -15,11 +15,6 @@ const themes = [
     key: 'dark',
     label: 'Tema escuro',
     icon: MoonIcon,
-  },
-  {
-    key: 'system',
-    label: 'Tema do sistema',
-    icon: DesktopIcon,
   },
 ]
 
