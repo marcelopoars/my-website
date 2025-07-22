@@ -15,14 +15,14 @@ type Stack =
   | 'Suporte ao Usuário'
   | 'Manutenção Preventiva'
 
-interface Experiences {
+interface Experience {
   company: string
   role: string
   description: string
   stack: Stack[]
 }
 
-export const experiences: Experiences[] = [
+export const experiencesData: Experience[] = [
   {
     company: 'MP Software',
     role: 'Desenvolvedor Front-End Sênior',
