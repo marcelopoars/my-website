@@ -1,4 +1,4 @@
-import { HeroLinks } from './_components'
+import { HeroLinks } from './hero-links'
 
 export function HeroHome() {
   return (
