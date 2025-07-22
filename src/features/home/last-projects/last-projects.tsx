@@ -1,7 +1,7 @@
-import { lastProjects } from '@lib/my-rojects'
+import { lastProjectsData } from './last-projects-data'
 import { ProjectCard } from './project-card'
 
-export function Projects() {
+export function LastProjects() {
   return (
     <section className="pt-12 md:pt-16 lg:pt-32">
       <div className="container">
@@ -10,7 +10,7 @@ export function Projects() {
         </h2>
 
         <div className="grid gap-6 gap-y-12 md:grid-cols-2 lg:grid-cols-4">
-          {lastProjects.map((project) => (
+          {lastProjectsData.map((project) => (
             <ProjectCard key={project.name} {...project} />
           ))}
         </div>

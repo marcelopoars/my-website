@@ -9,7 +9,7 @@ import triploASeminovosScreenshot from '@assets/projects/triploa-seminovos-websi
 // import timerScreenshot from '@assets/projects/timer.png'
 // import todoScreenshot from '@assets/projects/todo.png'
 
-export const lastProjects = [
+export const lastProjectsData = [
   {
     name: 'CPD',
     projectType: 'Website',

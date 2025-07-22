@@ -1,10 +1,10 @@
-import { Comments, DicaDoNerd, HeroHome, Projects } from '@features/home'
+import { Comments, DicaDoNerd, HeroHome, LastProjects } from '@features/home'
 
 export default function Home() {
   return (
     <>
       <HeroHome />
-      <Projects />
+      <LastProjects />
       <DicaDoNerd />
       <Comments />
     </>
