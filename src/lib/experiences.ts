@@ -24,10 +24,26 @@ interface Experiences {
 
 export const experiences: Experiences[] = [
   {
+    company: 'MP Software',
+    role: 'Desenvolvedor Front-End Sênior',
+    description:
+      'Atuando como Desenvolvedor Front-end com foco em soluções digitais eficientes, incluindo sites, landing pages, SaaS e softwares personalizados. Liderando projetos com levantamento de requisitos, definição tecnológica e liderança técnica, garantindo soluções intuitivas, acessíveis e escaláveis.',
+    stack: [
+      'React.js',
+      'Next.Js',
+      'TypeScript',
+      'JavaScript',
+      'Tailwind CSS',
+      'HTML',
+      'CSS',
+      'SEO',
+    ],
+  },
+  {
     company: 'Grupo RBS',
     role: 'Desenvolvedor Front-End Sênior',
     description:
-      'Atuando como Desenvolvedor Frontend nos projetos digitais de GZH.',
+      'Atuei no desenvolvimento da Central de Vídeos do GZH, contribuindo para a criação de uma plataforma escalável e de alta performance para veiculação de conteúdos multimídia.',
     stack: [
       'React.js',
       'Next.Js',
@@ -41,7 +57,7 @@ export const experiences: Experiences[] = [
   },
   {
     company: 'DBC Company',
-    role: 'Desenvolvedor Front-End',
+    role: 'Desenvolvedor Front-End Sênior',
     description:
       'Atuei como Desenvolvedor Frontend no cliente PagoNxt, uma empresa do grupo Santander em um projeto global de backoffice de alta complexidade onde tive a oportunidade de trabalhar com modernas tecnologias para front-end.',
     stack: [
