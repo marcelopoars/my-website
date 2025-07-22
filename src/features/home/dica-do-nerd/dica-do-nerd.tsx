@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { IconExternalLink } from '@tabler/icons-react'
-import { dicaDoNerdVideos } from '@lib/dica-do-nerd-videos'
+import { dicaDoNerdData } from '@features/home/dica-do-nerd/dica-do-nerd-data'
 import { LogoDicaDoNerdVertical } from '@shared/components/logos'
 
 export function DicaDoNerd() {
@@ -50,7 +50,7 @@ export function DicaDoNerd() {
           role="list"
           aria-roledescription="galeria de vídeos"
         >
-          {dicaDoNerdVideos.map(({ title, thumb, link }) => (
+          {dicaDoNerdData.map(({ title, thumb, link }) => (
             <li key={title} role="listitem">
               <article>
                 <a
