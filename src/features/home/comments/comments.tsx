@@ -1,4 +1,3 @@
-import { comments } from '@lib/comments'
 import {
   Carousel,
   CarouselContent,
@@ -7,6 +6,7 @@ import {
   CarouselPrevious,
 } from '@ui/carousel'
 import { CommentIcon } from './comment-icon'
+import { commentsData } from './comments-data'
 
 export function Comments() {
   return (
@@ -27,7 +27,7 @@ export function Comments() {
           aria-roledescription="carrossel"
         >
           <CarouselContent>
-            {comments.map(({ client, content, role }) => (
+            {commentsData.map(({ client, content, role }) => (
               <CarouselItem key={client} className="flex flex-col items-center">
                 <CommentIcon aria-hidden="true" />
                 <blockquote className="select-none text-balance mt-10 mb-4 lg:max-w-[880px] lg:text-2xl lg:leading-normal">
