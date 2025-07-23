@@ -23,7 +23,7 @@
       "@shared/*": ["shared/*"],
       "@shared/components/*": ["shared/components/*"],
       "@ui/*": ["shared/components/ui/*"],
-      "@lib/*": ["lib/*"],
+      "@utils/*": ["utils/*"],
       "@assets/*": ["assets/*"],
       "@/*": ["./src/*"]
     },
