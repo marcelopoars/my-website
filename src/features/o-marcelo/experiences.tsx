@@ -25,7 +25,7 @@ export function Experiences() {
               key={`${company}-${role}`}
               className="relative max-w-[80vw] text-pretty ml-0 pt-10 border-t select-none md:max-w-[420px] lg:pl-0"
             >
-              <div className="absolute -top-2 l-0 size-4 bg-primary rounded-full" />
+              <div className="absolute -top-2 left-0 size-4 bg-primary rounded-full" />
 
               <header className="mb-4">
                 <h3 className="text-2xl font-medium mb-2">{company}</h3>
