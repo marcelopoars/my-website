@@ -1,4 +1,4 @@
-import { cn } from '@lib/utils'
+import { cn } from 'utils'
 import { ContactBanner, Footer, Header } from '@shared/components'
 import { Theme, ThemeProvider } from '@shared/providers'
 import type { Metadata } from 'next'

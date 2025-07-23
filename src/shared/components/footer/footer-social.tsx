@@ -1,4 +1,4 @@
-import { footerSocialLinks } from '@lib/footer'
+import { footerSocialLinks } from './footer-links'
 import { FooterLinksList } from './footer-links-list'
 
 export function FooterSocial() {

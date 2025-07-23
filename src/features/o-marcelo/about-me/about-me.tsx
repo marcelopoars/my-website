@@ -6,20 +6,16 @@ const tools = [
   'Next.js',
   'TypeScript',
   'JavaScript',
-  'HTML',
   'CSS',
-  'Styled-components',
+  'HTML',
   'Tailwind CSS',
   'Shadcn UI',
   'React Hook Form',
   'Zod',
   'Jest',
   'React Testing Library',
-  'Axios',
-  'SonarQube',
-  'Aqua Enterprise',
-  'Azure',
-  'AWS',
+  'SEO',
+  'Acessibilidade',
 ]
 
 export function AboutMe() {
@@ -41,19 +37,9 @@ export function AboutMe() {
 
           <div className="max-w-[645px] space-y-6 lg:text-3xl lg:leading-normal lg:space-y-12">
             <p>
-              Gaúcho natural da cidade de Camaquã, atualmente morando em Porto
-              Alegre-RS.
-            </p>
-            <p>
-              Desenvolvedor Frontend apaixonado por criar interfaces web
-              incríveis e acessíveis. Entusiasta de SEO, acessibilidade e
-              inteligência artificial. Minha missão é contribuir para uma web
-              mais inclusiva e semântica, garantindo que todas as pessoas tenham
-              acesso a uma experiência digital excepcional.
-            </p>
-            <p>
-              Profissional com muita experiência em desenvolvimento de
-              interfaces web utilizando tecnologias como{' '}
+              Desenvolvedor Front-end Sênior com mais de 10 anos de experiência
+              na criação de interfaces web escaláveis, responsivas, acessíveis e
+              de alta performance. Especialista em{' '}
               {tools.map((tool) => (
                 <Fragment key={tool}>
                   <span className="text-primary font-medium">{tool}</span>,{' '}
@@ -62,9 +48,13 @@ export function AboutMe() {
               entre outras.
             </p>
             <p>
-              Estou constantemente buscando aprimorar meus conhecimentos e
-              habilidades, tanto através do aprendizado contínuo quanto
-              compartilhando meu conhecimento com a comunidade.
+              Atuei em projetos de grande porte para empresas como Grupo RBS,
+              DBC Company (Santander), Axur, Hospital Moinhos de Vento e Santa
+              Casa de Porto Alegre, contribuindo para sistemas educacionais,
+              plataformas corporativas e SaaS. Sou comprometido com código
+              limpo, colaboração em times ágeis (Scrum/Kanban) e aprendizado
+              contínuo, buscando sempre entregar valor real ao produto e ao
+              usuário final.
             </p>
           </div>
         </div>

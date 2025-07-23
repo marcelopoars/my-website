@@ -1,4 +1,4 @@
-import { stackInfoMap } from '@lib/stack-info'
+import { stackInfoMap } from './stack-info'
 import { IconBrandGithub } from '@tabler/icons-react'
 import Image, { StaticImageData } from 'next/image'
 

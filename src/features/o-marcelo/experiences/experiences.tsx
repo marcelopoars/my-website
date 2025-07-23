@@ -1,4 +1,3 @@
-import { experiencesData } from '@features/o-marcelo/experiences/experiences-data'
 import {
   Carousel,
   CarouselContent,
@@ -6,6 +5,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@shared/components'
+import { experiencesData } from './experiences-data'
+
 export function Experiences() {
   return (
     <section className="relative pt-28 overflow-hidden">
