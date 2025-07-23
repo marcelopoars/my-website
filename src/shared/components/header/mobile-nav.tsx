@@ -32,7 +32,7 @@ export function MobileNav({ navLinks }: MobileNavProps) {
           <SheetHeader>
             <SheetTitle className="text-left">Menu</SheetTitle>
           </SheetHeader>
-          <div className="flex flex-col justify-between py-8 gap-3 h-full">
+          <div className="flex flex-col justify-between px-4 py-8 gap-3 h-full">
             <div className="flex flex-col gap-3 text-left">
               {navLinks.map((link) => (
                 <Button
