@@ -36,36 +36,44 @@ Este projeto utiliza uma **estrutura modular baseada em features** (feature-base
 - **Componentização:** Componentes são extraídos para arquivos próprios, tornando o código mais modular e reutilizável.
 - **Facilidade de manutenção:** Novas features podem ser adicionadas sem impactar outras áreas do projeto.
 
-**Exemplo de estrutura:**
+**Estrutura do projeto:**
 
 ```
 src/
-  shared/
-    components/
-      footer/
-        footer.tsx
-        footer-about.tsx
-        footer-social.tsx
-        footer-dica-do-nerd.tsx
-        footer-links-list.tsx
+  app/
+  assets/
   features/
     home/
-      hero-home.tsx
-      comments.tsx
-      dica-do-nerd.tsx
-      projects.tsx
-      _components/
-        project-card.tsx
-        hero-links.tsx
-  lib/
-    footer/
-      footer-about-links.ts
-      footer-social-links.ts
-      footer-dica-do-nerd-links.ts
+      comments/
+      dica-do-nerd/
+        assets/
+      hero-home/
+      last-projects/
+        assets/
       index.ts
-  app/
-    layout.tsx
-    page.tsx
+    o-marcelo/
+      about-me/
+      experiences/
+      hero-marcelo/
+        assets/
+      index.ts
+    index.ts
+  shared/
+    components/
+      contact-banner/
+      footer/
+        footer-links/
+      header/
+      icons/
+      logos/
+      share/
+      theme-toggle/
+      ui/
+      index.ts
+    providers/
+    index.ts
+  styles/
+  utils/
 ```
 
 > 🎯 Essa abordagem torna o projeto mais organizado, fácil de entender e pronto para crescer.
