@@ -1,4 +1,4 @@
-import { footerAboutLinks } from '@lib/footer'
+import { footerAboutLinks } from './footer-links'
 import { FooterLinksList } from './footer-links-list'
 
 export function FooterAbout() {

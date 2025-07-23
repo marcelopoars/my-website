@@ -1,4 +1,4 @@
-import { footerDicaDoNerdLinks } from '@lib/footer'
+import { footerDicaDoNerdLinks } from './footer-links'
 import { LogoDicaDoNerdHorizontal } from '../logos'
 import { FooterLinksList } from './footer-links-list'
 
