@@ -60,7 +60,7 @@ export function ProjectCard({
       <footer>
         <aside className="flex justify-between font-mono font-medium">
           <a
-            className="text-primary hover:text-foreground/80 hover:underline underline-offset-4"
+            className="text-primary-light hover:text-foreground/80 hover:underline underline-offset-4"
             href={previewLink}
             target="_blank"
             rel="noopener noreferrer"

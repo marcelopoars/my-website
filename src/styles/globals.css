@@ -6,6 +6,7 @@
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --primary: #7446fe;
+  --primary-light: #7446fe;
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -27,6 +28,7 @@
   --background: oklch(0 0 0);
   --foreground: oklch(0.985 0 0);
   --primary: #7446fe;
+  --primary-light: #a991ff;
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(1 0 0);
   --secondary-foreground: oklch(0 0 0);
@@ -57,6 +59,7 @@
   --color-secondary: var(--accent-foreground);
   --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
   --color-dica-do-nerd: var(--dica-do-nerd);
   --color-dica-do-nerd-foreground: var(--dica-do-nerd-foreground);
   --radius-sm: calc(var(--radius) - 4px);
