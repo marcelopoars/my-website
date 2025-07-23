@@ -1,13 +1,13 @@
-import cpdScreenshot from '@assets/projects/cpd-website.png'
-import elaineCostureiraScreenshot from '@assets/projects/elaine-costureira-website.png'
-// import notesNlwExpertScreenshot from '@assets/projects/notes-nlw-expert-app.png'
-import solarisScreenshot from '@assets/projects/solaris-website.png'
-// import tailwindNextJsScreenshot from '@assets/projects/tailwind-nextjs-app.png'
-import triploASeminovosScreenshot from '@assets/projects/triploa-seminovos-website.png'
-// import githubBlogScreenshot from '@assets/projects/github-blog.png'
-// import coffeeDeliveryScreenshot from '@assets/projects/coffee-delivery.png'
-// import timerScreenshot from '@assets/projects/timer.png'
-// import todoScreenshot from '@assets/projects/todo.png'
+import cpdScreenshot from '@assets/last-projects/cpd-website.png'
+import elaineCostureiraScreenshot from '@assets/last-projects/elaine-costureira-website.png'
+// import notesNlwExpertScreenshot from '@assets/last-projects/notes-nlw-expert-app.png'
+import solarisScreenshot from '@assets/last-projects/solaris-website.png'
+// import tailwindNextJsScreenshot from '@assets/last-projects/tailwind-nextjs-app.png'
+import triploASeminovosScreenshot from '@assets/last-projects/triploa-seminovos-website.png'
+// import githubBlogScreenshot from '@assets/last-projects/github-blog.png'
+// import coffeeDeliveryScreenshot from '@assets/last-projects/coffee-delivery.png'
+// import timerScreenshot from '@assets/last-projects/timer.png'
+// import todoScreenshot from '@assets/last-projects/todo.png'
 
 export const lastProjectsData = [
   {
