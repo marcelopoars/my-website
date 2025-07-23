@@ -1,8 +1,8 @@
 import { StaticImageData } from 'next/image'
 
-import video1 from '@assets/dica-do-nerd-thumbs/curos-html5-3-css3-aula-10-semantica.png'
-import video2 from '@assets/dica-do-nerd-thumbs/curos-html5-3-css3-aula-13-projeto-pratico.png'
-import video3 from '@assets/dica-do-nerd-thumbs/dica-e-atalhos-para-visual-studio-code.png'
+import video1 from './assets/curos-html5-3-css3-aula-10-semantica.png'
+import video2 from './assets/curos-html5-3-css3-aula-13-projeto-pratico.png'
+import video3 from './assets/dica-e-atalhos-para-visual-studio-code.png'
 
 interface DicaDoNerdData {
   title: string

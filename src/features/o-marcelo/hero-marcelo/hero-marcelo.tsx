@@ -1,4 +1,4 @@
-import marceloImage from '@assets/foto-marcelo-peraira-frontend-developer.png'
+import marceloImage from './assets/foto-marcelo-peraira-frontend-developer.png'
 import Image from 'next/image'
 
 export function HeroMarcelo() {
