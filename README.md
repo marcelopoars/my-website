@@ -88,20 +88,19 @@ src/
 - 🧠 Arquitetura baseada em features
 - 🧪 Scripts de verificação com ESLint, Prettier e TypeScript
 
-## 💻 Como rodar localmente
+## 🏆 Compromisso com Qualidade
 
-```bash
-git clone https://github.com/marcelopoars/my-website.git
-cd my-website
-npm install
-npm run dev
-```
+Este projeto foi desenvolvido seguindo os mais altos padrões de qualidade em frontend:
 
-Para verificar a qualidade do projeto:
+- **SEO Avançado:** Estrutura semântica, meta tags, sitemap, robots.txt e otimizações para buscadores.
+- **Acessibilidade:** Testes com Axe e Lighthouse, contraste, navegação por teclado, ARIA, uso correto de landmarks e headings.
+- **Clean Code & SOLID:** Código modular, legível, com responsabilidade única, fácil de manter e evoluir.
+- **Boas Práticas:** Componentização, tipagem forte, padronização com ESLint/Prettier, revisão contínua.
+- **Semântica:** Uso correto de tags HTML, headings, landmarks e atributos para garantir significado e estrutura.
+- **Performance:** Otimizações de carregamento, imagens, SSR/SSG, e métricas monitoradas.
+- **Testabilidade:** Estrutura pronta para testes unitários e automatizados.
 
-```bash
-npm run check
-```
+> O resultado é um site acessível, rápido, escalável, fácil de manter e pronto para crescer!
 
 ## 🧪 Qualidade de código
 
@@ -123,17 +122,32 @@ npm run check        # Executa type-check, lint e format:check juntos
 
 💡 O comando npm run check é ideal para CI/CD ou pré-pull requests. Ele garante que o código esteja padronizado, sem erros de lint e com os tipos corretos antes de qualquer deploy.
 
+## 💻 Como rodar localmente
+
+```bash
+git clone https://github.com/marcelopoars/my-website.git
+cd my-website
+npm install
+npm run dev
+```
+
+Para verificar a qualidade do projeto:
+
+```bash
+npm run check
+```
+
 ## 🚧 Roadmap
 
 - [x] Refatoração da estrutura do projeto para feature-based
 - [x] Melhoria na qualidade e padronização do código
 - [x] Configuração de scripts de verificação (type-check, lint, prettier)
 - [x] Documentação e organização do README
+- [x] Acessibilidade avançada (testes com Axe)
+- [x] Lighthouse score 100/100 em todos os pilares
 - [ ] Integração de Husky para pre-commit
 - [ ] Testes unitários
 - [ ] Testes automatizados
-- [ ] Acessibilidade avançada (testes com Axe)
-- [ ] Lighthouse score 100/100 em todos os pilares
 - [ ] Integração com Google Analytics ou Vercel Analytics
 - [ ] Criar animações
 

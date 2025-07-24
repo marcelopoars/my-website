@@ -30,7 +30,7 @@ export function Experiences() {
 
               <header className="mb-4">
                 <h3 className="text-2xl font-medium mb-2">{company}</h3>
-                <strong className="block text-primary font-mono font-medium">
+                <strong className="block text-primary-light font-mono font-medium">
                   {role}
                 </strong>
               </header>
