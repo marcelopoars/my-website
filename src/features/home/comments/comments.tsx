@@ -23,7 +23,7 @@ export function Comments() {
 
         <Carousel
           className="pt-10 lg:pt-20"
-          aria-label="Depoimentos de clientes"
+          aria-label="Carrossel de depoimentos de clientes"
           aria-roledescription="carrossel"
         >
           <CarouselContent>
