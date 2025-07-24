@@ -57,29 +57,27 @@ export function ProjectCard({
         </p>
       </header>
 
-      <footer>
-        <aside className="flex justify-between font-mono font-medium">
+      <footer className="flex justify-between font-mono font-medium">
+        <a
+          className="text-primary-light hover:text-foreground/80 hover:underline underline-offset-4"
+          href={previewLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Acessar o site
+        </a>
+
+        {githubLink && (
           <a
-            className="text-primary-light hover:text-foreground/80 hover:underline underline-offset-4"
-            href={previewLink}
+            className="flex items-center gap-2 text-muted-foreground hover:text-foreground/80 hover:underline underline-offset-4"
+            href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Acessar o site
+            <IconBrandGithub size={20} />
+            Github
           </a>
-
-          {githubLink && (
-            <a
-              className="flex items-center gap-2 text-muted-foreground hover:text-foreground/80 hover:underline underline-offset-4"
-              href={githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IconBrandGithub size={20} />
-              Github
-            </a>
-          )}
-        </aside>
+        )}
       </footer>
     </article>
   )
