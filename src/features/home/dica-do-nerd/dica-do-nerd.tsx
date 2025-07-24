@@ -31,7 +31,7 @@ export function DicaDoNerd() {
 
           <div className="lg:flex lg:items-end lg:h-[61px]">
             <a
-              className="flex items-center gap-2 font-mono font-medium text-lg text-dica-do-nerd underline underline-offset-4 hover:text-muted-foreground"
+              className="flex items-center gap-2 font-mono font-medium text-dica-do-nerd-contrast text-lg underline underline-offset-4 hover:text-muted-foreground"
               href="https://youtube.com/DicaDoNerd/"
               target="_blank"
               rel="noopener noreferrer"
