@@ -16,7 +16,7 @@ const socialLinks = [
 
 export function HeroLinks() {
   return (
-    <aside className="flex items-center gap-4">
+    <div className="flex items-center gap-4">
       <Button asChild>
         <a
           href="https://api.whatsapp.com/send?phone=5551981838118&text=Ol%C3%A1!"
@@ -42,6 +42,6 @@ export function HeroLinks() {
           </Button>
         ))}
       </div>
-    </aside>
+    </div>
   )
 }
