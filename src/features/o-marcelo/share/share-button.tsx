@@ -29,11 +29,16 @@ export function ShareButton({
     }
   }
 
+  const isShareSupported = typeof navigator !== 'undefined' && !!navigator.share
+
+  if (!isShareSupported) return null
+
   return (
     <button
       className="p-1 text-primary lg:hover:text-foreground transition"
       onClick={handleShare}
       title="Ver mais opções"
+      aria-label="Compartilhar perfil do Marcelo Pereira"
     >
       <IconShare3 />
     </button>
