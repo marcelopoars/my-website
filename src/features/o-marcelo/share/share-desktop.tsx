@@ -25,6 +25,7 @@ export function ShareDesktop({
 
   return (
     <nav className="hidden lg:flex items-center gap-1">
+      <h2 className="sr-only">Compartilhar esta página</h2>
       <span className="text-muted-foreground">Compartilhar:</span>
       <ul className="flex items-center" role="list">
         <li role="listitem">
