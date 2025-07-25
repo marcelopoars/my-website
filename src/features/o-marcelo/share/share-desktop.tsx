@@ -1,9 +1,4 @@
-import {
-  IconBrandFacebook,
-  IconBrandLinkedin,
-  IconBrandWhatsapp,
-  IconBrandX,
-} from '@tabler/icons-react'
+import { socialNetworks } from '@utils/social-networks'
 import { ShareButton } from './share-button'
 import { ShareLink } from './share-link'
 
@@ -18,37 +13,12 @@ export function ShareDesktop({
   titleSite,
   text,
 }: ShareDesktopProps) {
-  const whatsAppUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent((text ?? titleSite) + ' ' + canonicalUrl)}`
-  const linkedinShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(canonicalUrl)}&title=${encodeURIComponent(titleSite)}${text ? `&summary=${encodeURIComponent(text)}` : ''}`
-  const facebookURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}` // Facebook ignora o parâmetro t
-  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text ?? titleSite)}&url=${encodeURIComponent(canonicalUrl)}`
-
-  const shareOptions = [
-    {
-      href: linkedinShareUrl,
-      title: 'Compartilhar no LinkedIn',
-      ariaLabel: 'Compartilhar no LinkedIn',
-      icon: <IconBrandLinkedin aria-hidden="true" focusable="false" />,
-    },
-    {
-      href: whatsAppUrl,
-      title: 'Compartilhar no WhatsApp',
-      ariaLabel: 'Compartilhar no WhatsApp',
-      icon: <IconBrandWhatsapp aria-hidden="true" focusable="false" />,
-    },
-    {
-      href: facebookURL,
-      title: 'Compartilhar no Facebook',
-      ariaLabel: 'Compartilhar no Facebook',
-      icon: <IconBrandFacebook aria-hidden="true" focusable="false" />,
-    },
-    {
-      href: twitterUrl,
-      title: 'Compartilhar no X',
-      ariaLabel: 'Compartilhar no X',
-      icon: <IconBrandX aria-hidden="true" focusable="false" />,
-    },
-  ]
+  const shareOptions = socialNetworks.map((network) => ({
+    href: network.getUrl({ canonicalUrl, titleSite, text }),
+    title: `Compartilhar no ${network.name}`,
+    ariaLabel: `Compartilhar no ${network.name}`,
+    icon: network.icon,
+  }))
   return (
     <nav className="hidden lg:flex items-center gap-1">
       <h2 className="sr-only">Compartilhar esta página</h2>
