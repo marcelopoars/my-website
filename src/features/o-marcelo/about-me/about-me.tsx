@@ -20,6 +20,8 @@ const tools = [
 
 const canonicalUrl = 'https://www.marcelopereira.com.br/'
 const titleSite = 'Marcelo Pereira | Tecnologia e Expertise para seu Projeto'
+const text =
+  'Desenvolvedor Front-end Sênior com mais de 10 anos de experiência na criação de interfaces web escaláveis, responsivas, acessíveis e de alta performance.'
 
 export function AboutMe() {
   return (
@@ -31,7 +33,7 @@ export function AboutMe() {
           <Share
             canonicalUrl={canonicalUrl}
             titleSite={titleSite}
-            text="Desenvolvedor Front-end Sênior com mais de 10 anos de experiência na criação de interfaces web escaláveis, responsivas, acessíveis e de alta performance."
+            text={text}
           />
         </div>
 
