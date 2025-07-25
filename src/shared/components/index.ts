@@ -4,7 +4,6 @@ export * from './footer'
 export * from './header'
 export * from './icons'
 export * from './logos'
-export * from './share'
 export * from './theme-toggle'
 
 // Shadcn UI

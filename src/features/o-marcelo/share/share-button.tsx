@@ -5,12 +5,18 @@ import { IconShare3 } from '@tabler/icons-react'
 interface ShareButtonProps {
   canonicalUrl: string
   titleSite: string
+  text?: string
 }
 
-export function ShareButton({ canonicalUrl, titleSite }: ShareButtonProps) {
+export function ShareButton({
+  canonicalUrl,
+  titleSite,
+  text,
+}: ShareButtonProps) {
   const shareData = {
     url: canonicalUrl,
     title: titleSite,
+    text: text ?? undefined,
   }
 
   const handleShare = () => {
