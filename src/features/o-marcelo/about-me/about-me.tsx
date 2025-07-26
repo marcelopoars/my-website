@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { Share } from '../share'
+import { MySocialLinks } from '../my-social-links'
 
 const tools = [
   'React.js',
@@ -18,11 +18,6 @@ const tools = [
   'Acessibilidade',
 ]
 
-const canonicalUrl = 'https://www.marcelopereira.com.br/'
-const titleSite = 'Marcelo Pereira | Tecnologia e Expertise para seu Projeto'
-const text =
-  'Desenvolvedor Front-end Sênior com mais de 10 anos de experiência na criação de interfaces web escaláveis, responsivas, acessíveis e de alta performance.'
-
 export function AboutMe() {
   return (
     <section>
@@ -30,11 +25,7 @@ export function AboutMe() {
         <hr className="bg-foreground/10 h-px" />
 
         <div className="flex justify-end mt-4">
-          <Share
-            canonicalUrl={canonicalUrl}
-            titleSite={titleSite}
-            text={text}
-          />
+          <MySocialLinks />
         </div>
 
         <div className="flex flex-col gap-6 pt-8 md:flex-row md:items-start md:gap-28 lg:pt-20 lg:gap-0">
