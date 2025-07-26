@@ -1,4 +1,4 @@
-import { socialNetworks } from '@utils/social-networks'
+import { mySocialLinks } from '@utils/social-networks'
 
 export function MySocialLinks() {
   return (
@@ -6,7 +6,7 @@ export function MySocialLinks() {
       <h2 className="sr-only">Encontre-me aqui</h2>
 
       <ul className="flex items-center gap-1" role="list">
-        {socialNetworks.map((social) => (
+        {mySocialLinks.map((social) => (
           <li role="listitem" key={social.name}>
             <a
               href={social.url}

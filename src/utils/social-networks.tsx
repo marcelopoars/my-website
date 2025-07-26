@@ -5,13 +5,13 @@ import {
 } from '@tabler/icons-react'
 import { ReactNode } from 'react'
 
-export interface SocialNetwork {
+export interface MySocialLinks {
   name: string
   url: string
   icon: ReactNode
 }
 
-export const socialNetworks: SocialNetwork[] = [
+export const mySocialLinks: MySocialLinks[] = [
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/marcelopoars/',
