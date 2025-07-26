@@ -1,4 +1,4 @@
-import { mySocialLinks } from '@utils/social-networks'
+import { mySocialLinks } from './social-networks'
 
 export function MySocialLinks() {
   return (
