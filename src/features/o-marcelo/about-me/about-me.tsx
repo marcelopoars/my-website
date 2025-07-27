@@ -1,5 +1,4 @@
 import { Fragment } from 'react'
-import { MySocialLinks } from '../my-social-links'
 
 const tools = [
   'React.js',
@@ -23,10 +22,6 @@ export function AboutMe() {
     <section>
       <div className="container">
         <hr className="bg-foreground/10 h-px" />
-
-        <div className="flex justify-end mt-4">
-          <MySocialLinks />
-        </div>
 
         <div className="flex flex-col gap-6 pt-8 md:flex-row md:items-start md:gap-28 lg:pt-20 lg:gap-0">
           <div className="lg:sticky lg:top-12">
