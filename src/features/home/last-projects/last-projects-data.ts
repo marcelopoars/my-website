@@ -1,11 +1,11 @@
 import cpdScreenshot from './assets/cpd-website.png'
-import elaineCostureiraScreenshot from './assets/elaine-costureira-website.png'
+// import elaineCostureiraScreenshot from './assets/elaine-costureira-website.png'
 // import notesNlwExpertScreenshot from './assets/notes-nlw-expert-app.png'
 import solarisScreenshot from './assets/solaris-website.png'
 // import tailwindNextJsScreenshot from './assets/tailwind-nextjs-app.png'
-import triploASeminovosScreenshot from './assets/triploa-seminovos-website.png'
-// import githubBlogScreenshot from './assets/github-blog.png'
-// import coffeeDeliveryScreenshot from './assets/coffee-delivery.png'
+// import triploASeminovosScreenshot from './assets/triploa-seminovos-website.png'
+import githubBlogScreenshot from './assets/github-blog.png'
+import coffeeDeliveryScreenshot from './assets/coffee-delivery.png'
 // import timerScreenshot from './assets/timer.png'
 // import todoScreenshot from './assets/todo.png'
 
@@ -26,22 +26,22 @@ export const lastProjectsData = [
     previewLink: 'https://www.solaris.eco.br',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
   },
-  // {
-  //   name: 'Github Blog',
-  //   projectType: 'Blog',
-  //   screenshot: githubBlogScreenshot,
-  //   githubLink: 'https://github.com/marcelopoars/ignite-github-blog',
-  //   previewLink: 'https://ignite-github-blog.marcelopereira.com.br/',
-  //   stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents', 'githubapi'],
-  // },
-  // {
-  //   name: 'Coffee Delivery',
-  //   projectType: 'App',
-  //   screenshot: coffeeDeliveryScreenshot,
-  //   githubLink: 'https://github.com/marcelopoars/ignite-coffee-delivery',
-  //   previewLink: 'https://coffee-delivery.marcelopereira.com.br/',
-  //   stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
-  // },
+  {
+    name: 'Github Blog',
+    projectType: 'Blog',
+    screenshot: githubBlogScreenshot,
+    githubLink: 'https://github.com/marcelopoars/ignite-github-blog',
+    previewLink: 'https://ignite-github-blog.marcelopereira.com.br/',
+    stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents', 'githubapi'],
+  },
+  {
+    name: 'Coffee Delivery',
+    projectType: 'App',
+    screenshot: coffeeDeliveryScreenshot,
+    githubLink: 'https://github.com/marcelopoars/ignite-coffee-delivery',
+    previewLink: 'https://coffee-delivery.marcelopereira.com.br/',
+    stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
+  },
   // {
   //   name: 'Timer',
   //   projectType: 'App',
@@ -74,20 +74,20 @@ export const lastProjectsData = [
   //   previewLink: 'https://ignite-todo-list.marcelopereira.com.br/',
   //   stack: ['reactjs', 'vitejs', 'typescript', 'css3'],
   // },
-  {
-    name: 'Elaine | Costureira',
-    projectType: 'Landing page',
-    screenshot: elaineCostureiraScreenshot,
-    githubLink: '',
-    previewLink: 'https://www.elainecostureira.com.br',
-    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
-  },
-  {
-    name: 'Triplo A Seminovos',
-    projectType: 'Website',
-    screenshot: triploASeminovosScreenshot,
-    githubLink: '',
-    previewLink: 'https://triploaseminovos.com.br',
-    stack: ['reactjs', 'gatsbyjs', 'javascript', 'styledcomponents', 'seo'],
-  },
+  // {
+  //   name: 'Elaine | Costureira',
+  //   projectType: 'Landing page',
+  //   screenshot: elaineCostureiraScreenshot,
+  //   githubLink: '',
+  //   previewLink: 'https://www.elainecostureira.com.br',
+  //   stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
+  // },
+  // {
+  //   name: 'Triplo A Seminovos',
+  //   projectType: 'Website',
+  //   screenshot: triploASeminovosScreenshot,
+  //   githubLink: '',
+  //   previewLink: 'https://triploaseminovos.com.br',
+  //   stack: ['reactjs', 'gatsbyjs', 'javascript', 'styledcomponents', 'seo'],
+  // },
 ]

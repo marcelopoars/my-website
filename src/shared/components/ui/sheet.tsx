@@ -3,7 +3,7 @@
 import * as React from 'react'
 import * as SheetPrimitive from '@radix-ui/react-dialog'
 
-import { cn } from '@utils/utils'
+import { cn } from '@utils/cn'
 import { Cross2Icon } from '@radix-ui/react-icons'
 
 function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
