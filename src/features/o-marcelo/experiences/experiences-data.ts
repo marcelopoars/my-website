@@ -24,6 +24,22 @@ interface Experience {
 
 export const experiencesData: Experience[] = [
   {
+    company: 'Grupo FCamara',
+    role: 'Desenvolvedor Front-End Sênior',
+    description:
+      'Atuo como Desenvolvedor Front-End Sênior no time de SEO do Grupo Casas Bahia, com foco em React, Next.js e TypeScript. Entrego interfaces performáticas, acessíveis e escaláveis, com Design System, SEO técnico e participação ativa em code reviews.',
+    stack: [
+      'React.js',
+      'Next.Js',
+      'TypeScript',
+      'JavaScript',
+      'Tailwind CSS',
+      'HTML',
+      'CSS',
+      'SEO',
+    ],
+  },
+  {
     company: 'MP Software',
     role: 'Desenvolvedor Front-End Sênior',
     description:
