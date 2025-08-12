@@ -1,4 +1,5 @@
 type Stack =
+  | 'A11y'
   | 'AWS'
   | 'CSS'
   | 'HTML'
@@ -33,10 +34,10 @@ export const experiencesData: Experience[] = [
       'Next.Js',
       'TypeScript',
       'JavaScript',
-      'Tailwind CSS',
       'HTML',
       'CSS',
       'SEO',
+      'A11y',
     ],
   },
   {
@@ -53,6 +54,7 @@ export const experiencesData: Experience[] = [
       'HTML',
       'CSS',
       'SEO',
+      'A11y',
     ],
   },
   {
@@ -69,6 +71,7 @@ export const experiencesData: Experience[] = [
       'HTML',
       'CSS',
       'SEO',
+      'A11y',
     ],
   },
   {
@@ -84,6 +87,7 @@ export const experiencesData: Experience[] = [
       'CSS',
       'Styled-components',
       'AWS',
+      'A11y',
     ],
   },
   {
