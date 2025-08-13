@@ -11,10 +11,10 @@ export const commentsData: Comment[] = [
     client: 'Luísa Trento',
     role: 'Diretora de marketing na CPD',
   },
-  {
-    content:
-      'Graças ao site criado pelo Marcelo, estou recebendo muitos novos clientes de Canoas e região. Eles estão encontrando meu número no site e chegando até mim. Adorei a sugestão de reformas na hora, que trouxe ainda mais clientes. Meu negócio cresceu muito, só tenho a agradecer!',
-    client: 'Elaine Gouvêa',
-    role: 'Costureira',
-  },
+  // {
+  //   content:
+  //     'Graças ao site criado pelo Marcelo, estou recebendo muitos novos clientes de Canoas e região. Eles estão encontrando meu número no site e chegando até mim. Adorei a sugestão de reformas na hora, que trouxe ainda mais clientes. Meu negócio cresceu muito, só tenho a agradecer!',
+  //   client: 'Elaine Gouvêa',
+  //   role: 'Costureira',
+  // },
 ]
