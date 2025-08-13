@@ -1,15 +1,33 @@
 import cpdScreenshot from './assets/cpd-website.png'
-// import elaineCostureiraScreenshot from './assets/elaine-costureira-website.png'
-// import notesNlwExpertScreenshot from './assets/notes-nlw-expert-app.png'
+import notesNlwExpertScreenshot from './assets/notes-nlw-expert-app.png'
 import solarisScreenshot from './assets/solaris-website.png'
-// import tailwindNextJsScreenshot from './assets/tailwind-nextjs-app.png'
-// import triploASeminovosScreenshot from './assets/triploa-seminovos-website.png'
+import tailwindNextJsScreenshot from './assets/tailwind-nextjs-app.png'
 import githubBlogScreenshot from './assets/github-blog.png'
 import coffeeDeliveryScreenshot from './assets/coffee-delivery.png'
+import plataformaJarvisScreenshot from './assets/plataforma-jarvis-leiloes.png'
+import triploaImportadoraScreenshot from './assets/triploa-importadora-ecommerce.png'
+// import elaineCostureiraScreenshot from './assets/elaine-costureira-website.png'
+// import triploASeminovosScreenshot from './assets/triploa-seminovos-website.png'
 // import timerScreenshot from './assets/timer.png'
 // import todoScreenshot from './assets/todo.png'
 
 export const lastProjectsData = [
+  {
+    name: 'Plataforma Jarvis',
+    projectType: 'SaaS',
+    screenshot: plataformaJarvisScreenshot,
+    githubLink: '',
+    previewLink: 'https://marcellsolimeoleiloes.com/lance-certo-ig/',
+    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
+  },
+  {
+    name: 'Triplo A Importadora',
+    projectType: 'Ecommerce',
+    screenshot: triploaImportadoraScreenshot,
+    githubLink: '',
+    previewLink: 'https://www.triploaimportadora.com.br/',
+    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'seo'],
+  },
   {
     name: 'CPD',
     projectType: 'Website',
@@ -50,22 +68,22 @@ export const lastProjectsData = [
   //   previewLink: 'https://ignite-timer.marcelopereira.com.br/',
   //   stack: ['reactjs', 'vitejs', 'typescript', 'styledcomponents'],
   // },
-  // {
-  //   name: 'Tailwind NextJs App',
-  //   projectType: 'App',
-  //   screenshot: tailwindNextJsScreenshot,
-  //   githubLink: 'https://github.com/marcelopoars/tailwind-nextjs',
-  //   previewLink: 'https://tailwind-nextjs.marcelopereira.com.br',
-  //   stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
-  // },
-  // {
-  //   name: 'Notes',
-  //   projectType: 'App',
-  //   screenshot: notesNlwExpertScreenshot,
-  //   githubLink: 'https://github.com/marcelopoars/nlw-experts-notes',
-  //   previewLink: 'https://notes.marcelopereira.com.br',
-  //   stack: ['reactjs', 'vitejs', 'typescript', 'tailwindcss'],
-  // },
+  {
+    name: 'Tailwind NextJs App',
+    projectType: 'App',
+    screenshot: tailwindNextJsScreenshot,
+    githubLink: 'https://github.com/marcelopoars/tailwind-nextjs',
+    previewLink: 'https://tailwind-nextjs.marcelopereira.com.br',
+    stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
+  },
+  {
+    name: 'Notes',
+    projectType: 'App',
+    screenshot: notesNlwExpertScreenshot,
+    githubLink: 'https://github.com/marcelopoars/nlw-experts-notes',
+    previewLink: 'https://notes.marcelopereira.com.br',
+    stack: ['reactjs', 'vitejs', 'typescript', 'tailwindcss'],
+  },
   // {
   //   name: 'Todo',
   //   projectType: 'App',

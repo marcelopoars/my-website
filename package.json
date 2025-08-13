@@ -14,6 +14,11 @@
     "type": "git",
     "url": "https://github.com/marcelopoars/my-website.git"
   },
+    "engines": {
+    "node": "22.x",
+    "npm": ">=10.0.0"
+  },
+  "packageManager": "npm@10.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
