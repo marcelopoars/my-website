@@ -32,7 +32,7 @@ export function AboutMe() {
 
           <div className="max-w-[645px] space-y-6 lg:text-3xl lg:leading-normal lg:space-y-12">
             <p>
-              Desenvolvedor Front-end Sênior com mais de 10 anos de experiência
+              Desenvolvedor Front-End Sênior com mais de 10 anos de experiência
               na criação de interfaces web escaláveis, responsivas, acessíveis e
               de alta performance. Especialista em{' '}
               {tools.map((tool) => (
