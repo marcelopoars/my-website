@@ -8,7 +8,7 @@ export const commentsData: Comment[] = [
   {
     content:
       'Trabalhar com Marcelo Pereira foi uma experiência excelente. Cumpriu todos os prazos combinados, manteve um valor justo e sempre entregou exatamente o que acordamos. Além disso, teve a paciência e atenção para me ouvir e entender minhas necessidades, conseguindo resolver problemas que outros profissionais não conseguiram. Recomendo de olhos fechados pelo profissionalismo e pela capacidade de transformar o que era difícil em soluções práticas e eficazes.',
-    client: 'Marcelo Solimeo',
+    client: 'Marcel Solimeo',
     role: 'Plataforma Jarvis Leilões',
   },
   {
