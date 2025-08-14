@@ -17,7 +17,7 @@ export const lastProjectsData = [
     projectType: 'SaaS',
     screenshot: plataformaJarvisScreenshot,
     githubLink: '',
-    previewLink: 'https://marcellsolimeoleiloes.com/lance-certo-ig/',
+    previewLink: 'https://marcellsolimeoleiloes.com/jarvis/',
     stack: ['reactjs', 'nextjs', 'typescript', 'tailwindcss'],
   },
   {
