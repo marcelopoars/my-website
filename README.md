@@ -1,5 +1,7 @@
 # 🚀 Marcelo Pereira — Portfólio
 
+![Demonstração do site](src/docs/assets/my-website.gif)
+
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs)
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-4.0-06B6D4?logo=tailwindcss)

@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/marcelopoars/my-website.git"
   },
-    "engines": {
+  "engines": {
     "node": "22.x",
     "npm": ">=10.0.0"
   },
