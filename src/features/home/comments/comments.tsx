@@ -4,9 +4,10 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@ui/carousel'
+} from '@shared/components'
 import { CommentIcon } from './comment-icon'
 import { commentsData } from './comments-data'
+import { CarouselBullets } from './carousel-bullets'
 
 export function Comments() {
   return (
@@ -43,8 +44,9 @@ export function Comments() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="hidden lg:flex" />
+          <CarouselNext className="hidden lg:flex" />
+          <CarouselBullets />
         </Carousel>
       </div>
     </section>
