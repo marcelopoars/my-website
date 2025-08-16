@@ -46,7 +46,7 @@ export function DicaDoNerd() {
 
       <div className="container pt-8 lg:pt-16">
         <ul
-          className="grid gap-6 lg:grid-cols-3"
+          className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
           role="list"
           aria-roledescription="galeria de vídeos"
         >
